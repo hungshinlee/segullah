@@ -1,0 +1,1824 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.4 system-ui,-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>當你手持解剖刀站上終末法庭｜羅馬書 2:1–16｜提摩太小組</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,500;0,600;1,500&family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@500;700;900&family=Noto+Serif+TC:wght@600;700;900&display=swap">
+<style>
+/* Layout: reading-group notebook pages (1280×720) lying on a dark desk. Wide screens show one page at a time, scaled to fit; phones and portrait tablets stack the pages and scroll. Single printed-paper look by choice. */
+:root{
+  --desk:#2B2724; --paper:#FBF7EE; --card:#FFFDF8; --ink:#2A2521; --mute:#6F665C; --rule:#E3D9C7;
+  --red:#A3432A; --red-l:#E6BBA8; --verse:#2C3A5A; --verse-l:#DCE1EC; --hi:#F2D680; --note:#F7E8A4; --note2:#F6DCCB; --fog:#EFE8DA;
+  --f-sans:"Noto Sans TC","PingFang TC","Microsoft JhengHei","Heiti TC",sans-serif;
+  --f-serif:"Noto Serif TC","Songti TC","PMingLiU","Noto Serif CJK TC",serif;
+  --f-hand:"LXGW WenKai TC","Kaiti TC","BiauKai","DFKai-SB",serif;
+  --f-lat:"EB Garamond","Noto Serif TC",Georgia,"Times New Roman",serif;
+  --fs-mega:64px; --fs-h:40px; --fs-lead:28px; --fs-body:23px; --fs-small:19px; --fs-tiny:16px; --fs-verse:24px;
+  --sh:0 1px 0 rgba(42,37,33,.06),0 6px 16px -8px rgba(42,37,33,.35);
+  color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{height:100%}
+body{background-color:var(--desk);background-image:repeating-linear-gradient(115deg,rgba(255,255,255,.025) 0 2px,transparent 2px 7px);color:var(--ink);font-family:var(--f-sans);font-weight:500;overflow:hidden;-webkit-font-smoothing:antialiased}
+p,h1,h2,h3,ul,ol,blockquote,figure{margin:0}
+ul,ol{padding:0;list-style:none}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+mark{background:linear-gradient(transparent 52%,var(--hi) 52%,var(--hi) 90%,transparent 90%);color:inherit;padding:0 2px}
+
+/* ---------- stage ---------- */
+.viewport{position:fixed;left:0;right:0;top:env(safe-area-inset-top,0px);bottom:calc(60px + env(safe-area-inset-bottom,0px));padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px}
+.deck{position:relative;width:100%;height:100%}
+.slide{position:absolute;left:50%;top:50%;width:1280px;height:720px;background:var(--paper);color:var(--ink);font-size:var(--fs-body);line-height:1.6;overflow:hidden;box-shadow:0 20px 50px rgba(0,0,0,.5);transform:translate(-50%,-50%) scale(var(--s,.5)) translateX(var(--dx,0px));opacity:0;visibility:hidden;transition:opacity .3s ease,transform .45s cubic-bezier(.2,.8,.2,1),visibility 0s linear .45s}
+.slide.before{--dx:-60px}.slide.after{--dx:60px}
+.slide.on{opacity:1;visibility:visible;transition:opacity .3s ease,transform .45s cubic-bezier(.2,.8,.2,1),visibility 0s}
+.slide::before{content:"";position:absolute;inset:0;pointer-events:none;background:
+  radial-gradient(circle at 40px 120px,var(--desk) 0 9px,rgba(0,0,0,.18) 10px,transparent 11px),
+  radial-gradient(circle at 40px 360px,var(--desk) 0 9px,rgba(0,0,0,.18) 10px,transparent 11px),
+  radial-gradient(circle at 40px 600px,var(--desk) 0 9px,rgba(0,0,0,.18) 10px,transparent 11px),
+  linear-gradient(90deg,transparent 80px,var(--red-l) 80px 81.5px,transparent 81.5px 85px,var(--red-l) 85px 86.5px,transparent 86.5px)}
+.page{position:absolute;inset:0;padding:26px 58px 42px 118px;display:flex;flex-direction:column;gap:16px}
+.pg{position:absolute;right:30px;bottom:12px;font-family:var(--f-lat);font-style:italic;font-size:18px;letter-spacing:.06em;color:var(--mute)}
+.notes{display:none}
+
+/* ---------- running head & titles ---------- */
+.rh{display:flex;align-items:baseline;gap:14px;border-bottom:1.5px solid var(--rule);padding-bottom:7px;font-size:var(--fs-tiny);letter-spacing:.12em;color:var(--mute);white-space:nowrap}
+.rh .sec{color:var(--red);font-weight:700}
+.rh .src{margin-left:auto;letter-spacing:.06em;font-weight:700;color:var(--ink);border:1.5px solid var(--ink);border-radius:999px;padding:0 12px;line-height:1.75}
+.ttl{font-family:var(--f-serif);font-weight:900;font-size:var(--fs-h);line-height:1.28;text-wrap:balance}
+.ttl small{display:block;font-family:var(--f-sans);font-weight:700;font-size:var(--fs-small);color:var(--mute);letter-spacing:.04em;margin-top:4px}
+.kick{font-size:var(--fs-tiny);font-weight:700;letter-spacing:.14em;color:var(--red)}
+.grow{flex:1;min-height:0}
+.cols{display:grid;grid-template-columns:var(--c,1fr 1fr);gap:var(--g,28px);min-height:0}
+.stack{display:flex;flex-direction:column;gap:var(--g,14px);min-width:0;min-height:0}
+.ctr{justify-content:center}
+.small{font-size:var(--fs-small);line-height:1.65}
+.tiny{font-size:var(--fs-tiny);line-height:1.6;color:var(--mute)}
+.lead{font-size:var(--fs-lead);line-height:1.5;font-weight:700}
+.en{font-family:var(--f-lat);font-style:italic;font-weight:500;letter-spacing:.01em}
+.red{color:var(--red)}
+.ul{text-decoration:underline;text-decoration-color:var(--red);text-decoration-thickness:3px;text-underline-offset:6px}
+.wv{text-decoration:underline wavy var(--red);text-decoration-thickness:2px;text-underline-offset:7px}
+.circ{display:inline-block;border:2.5px solid var(--red);border-radius:50% 46% 52% 48%/55% 50% 50% 45%;padding:0 10px;margin:0 2px;transform:rotate(-2deg)}
+.strike{position:relative;color:var(--mute)}
+.strike::after{content:"";position:absolute;left:-4px;right:-4px;top:52%;height:3px;background:var(--red);transform:rotate(-4deg)}
+
+/* ---------- source layers (legend on the TOC page) ---------- */
+.tag{display:inline-block;font-family:var(--f-sans);font-size:14px;font-weight:700;letter-spacing:.1em;line-height:1.6;padding:0 9px;border:1.5px solid currentColor;white-space:nowrap;vertical-align:.18em}
+.tag.t-vs{color:var(--verse)} .tag.t-aq{color:var(--ink)} .tag.t-oq{color:var(--mute)} .tag.t-mg{color:var(--red);font-family:var(--f-hand);font-weight:700;letter-spacing:.06em} .tag.t-q{background:var(--note);color:#5A4A12;border-color:#D9C46A}
+/* 經文：藍黑墨水的明體 */
+.vs{font-family:var(--f-serif);font-weight:600;color:var(--verse);font-size:var(--fs-verse);line-height:1.7;border-left:4px solid var(--verse);padding:2px 0 2px 18px}
+.vs sup{font-family:var(--f-lat);font-weight:600;font-size:.72em;color:var(--red);margin-right:4px;vertical-align:.35em}
+.vs cite{display:block;font-family:var(--f-sans);font-style:normal;font-weight:700;font-size:var(--fs-tiny);color:var(--mute);margin-top:4px;letter-spacing:.06em}
+.vs.sm{font-size:var(--fs-small);line-height:1.65}
+/* 作者說：黑色明體＋粗直線 */
+.aq{position:relative;font-family:var(--f-serif);font-weight:700;font-size:var(--fs-lead);line-height:1.55;border-left:6px solid var(--ink);padding:4px 0 4px 22px}
+.aq .by,.oq .by{display:block;font-family:var(--f-sans);font-weight:700;font-size:var(--fs-tiny);color:var(--mute);letter-spacing:.06em;margin-top:8px}
+.aq .en,.oq .en{display:block;font-size:19px;color:var(--mute);margin-top:6px;line-height:1.4}
+.aq.big{font-size:34px;line-height:1.5}
+/* 書中引用（作者引別人的話）：灰框 */
+.oq{position:relative;background:var(--card);border:1.5px solid #CFC5B3;padding:16px 22px 14px;font-family:var(--f-serif);font-weight:600;font-size:var(--fs-body);line-height:1.6;box-shadow:var(--sh)}
+.oq::before{content:"書中引用";position:absolute;top:-12px;left:16px;background:var(--paper);padding:0 8px;font-family:var(--f-sans);font-size:13px;font-weight:700;letter-spacing:.14em;color:var(--mute)}
+/* 我的眉批：紅色手寫 */
+.mg{font-family:var(--f-hand);font-weight:700;color:var(--red);font-size:var(--fs-small);line-height:1.5;transform:rotate(-1.2deg)}
+.mg.r{transform:rotate(1.4deg)}
+.mg b{font-weight:700;background:linear-gradient(transparent 60%,rgba(242,214,128,.8) 60%)}
+.mg.arrow::before{content:"→ "}
+/* 討論：便利貼 */
+.sticky{position:relative;background:var(--note);padding:22px 22px 18px;box-shadow:0 10px 18px -10px rgba(42,37,33,.55);transform:rotate(-1.2deg);font-family:var(--f-hand);font-weight:700;color:#3F3510;font-size:var(--fs-small);line-height:1.5}
+.sticky::before{content:"";position:absolute;top:-12px;left:50%;width:92px;height:24px;margin-left:-46px;background:rgba(255,255,255,.55);border:1px solid rgba(0,0,0,.06);transform:rotate(2deg)}
+.sticky.p{background:var(--note2);color:#4D2A1C;transform:rotate(1.4deg)}
+.sticky .h{display:block;font-family:var(--f-sans);font-size:14px;letter-spacing:.14em;color:#8A7420;margin-bottom:4px}
+.sticky.p .h{color:#9B5A40}
+
+/* ---------- people cards ---------- */
+.who{display:grid;grid-template-columns:56px 1fr;gap:4px 14px;align-items:center;background:var(--card);border:1.5px solid var(--rule);padding:12px 16px;box-shadow:var(--sh);min-width:0}
+.who .mono{grid-row:span 2;width:56px;height:56px;border-radius:50%;border:2px solid var(--ink);display:grid;place-items:center;font-family:var(--f-serif);font-weight:900;font-size:26px;background:var(--paper)}
+.who .nm2{font-weight:900;font-size:var(--fs-small);line-height:1.35}
+.who .nm2 .en{font-weight:500;font-size:16px;color:var(--mute);margin-left:6px}
+.who .id{font-size:15px;color:var(--mute);line-height:1.4}
+.who .say{grid-column:1/-1;font-size:var(--fs-small);line-height:1.5;border-top:1px dashed var(--rule);padding-top:8px;margin-top:4px}
+.whos{display:grid;grid-template-columns:var(--c,1fr 1fr);gap:16px;align-content:start}
+
+/* ---------- cover ---------- */
+.cv{padding:34px 60px 46px 118px}
+.cv-top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:2px solid var(--ink);padding-bottom:8px;font-weight:900;font-size:var(--fs-small);letter-spacing:.16em}
+.cv-top .en{font-weight:500;letter-spacing:.04em;color:var(--mute);font-size:18px}
+.cv-title{font-family:var(--f-serif);font-weight:900;font-size:var(--fs-mega);line-height:1.22;letter-spacing:.01em}
+.cv-title span{display:block}
+.cv-title .r{color:var(--red)}
+.cv-en{font-family:var(--f-lat);font-style:italic;font-size:24px;color:var(--mute);line-height:1.35}
+.cv-meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:var(--fs-small);color:var(--mute);font-weight:700}
+.cv-meta b{color:var(--ink)}
+.cv-art{position:relative;display:flex;align-items:center;justify-content:center}
+.cv-art svg{width:100%;max-width:440px;height:auto}
+
+/* ---------- toc ---------- */
+.toc{display:flex;flex-direction:column;gap:2px}
+.toc button{display:grid;grid-template-columns:52px auto 1fr auto;align-items:baseline;gap:12px;background:none;border:0;padding:5px 6px;text-align:left;cursor:pointer;font-size:var(--fs-small);line-height:1.45}
+.toc button:hover{background:rgba(242,214,128,.35)}
+.toc .n{font-family:var(--f-serif);font-weight:900;color:var(--red);font-size:20px}
+.toc .t{font-weight:900}
+.toc .t small{font-weight:500;color:var(--mute);font-size:15px;margin-left:8px}
+.toc .dots{border-bottom:2px dotted #BDB2A0;transform:translateY(-6px)}
+.toc .p{font-family:var(--f-lat);font-style:italic;color:var(--mute)}
+.toc button.st .t{color:#7A6418}
+.toc button.st .n{color:#7A6418}
+.legend{display:flex;flex-direction:column;gap:14px;background:var(--card);border:1.5px solid var(--rule);padding:16px 20px;box-shadow:var(--sh)}
+.legend h3{font-size:var(--fs-tiny);letter-spacing:.14em;color:var(--mute)}
+.legend li{display:grid;grid-template-columns:96px 1fr;gap:12px;align-items:center;font-size:17px;line-height:1.45}
+
+/* ---------- section title pages ---------- */
+.slide.chap .page{flex-direction:row;align-items:center;gap:46px;padding-right:80px}
+.chap-n{flex:none;font-family:var(--f-serif);font-weight:900;font-size:230px;line-height:1;color:var(--red);opacity:.9;width:250px;text-align:center}
+.chap-b{display:flex;flex-direction:column;gap:16px;min-width:0}
+.chap-t{font-family:var(--f-serif);font-weight:900;font-size:58px;line-height:1.2}
+.chap-s{font-size:var(--fs-lead);color:var(--mute);font-weight:700;line-height:1.45}
+.chap-k{display:flex;flex-direction:column;gap:6px;border-top:1.5px solid var(--rule);padding-top:14px;font-size:var(--fs-small)}
+.chap-k li::before{content:"✓";color:var(--red);font-weight:900;margin-right:10px}
+.chap-k .h{font-size:var(--fs-tiny);letter-spacing:.14em;color:var(--mute);font-weight:700}
+
+/* ---------- ditch diagram（兩邊的水溝） ---------- */
+.ditch{display:grid;grid-template-columns:1fr 1.25fr 1fr;align-items:stretch;gap:0;min-height:0}
+.ditch .d{position:relative;display:flex;flex-direction:column;justify-content:flex-end;gap:6px;padding:18px 18px 20px;background:repeating-linear-gradient(135deg,rgba(163,67,42,.08) 0 10px,transparent 10px 20px),var(--card);border:2px solid var(--red);min-width:0}
+.ditch .d.l{border-radius:0 0 0 60px;border-right:0}
+.ditch .d.r{border-radius:0 0 60px 0;border-left:0}
+.ditch .road{display:flex;flex-direction:column;justify-content:flex-start;gap:8px;padding:18px 22px;background:var(--paper);border-top:8px double var(--ink);border-bottom:2px solid var(--ink);box-shadow:inset 0 -14px 0 -10px var(--rule);min-width:0;text-align:center;align-items:center}
+.ditch .lab{font-size:var(--fs-tiny);letter-spacing:.14em;font-weight:700;color:var(--red)}
+.ditch .road .lab{color:var(--ink)}
+.ditch h3{font-family:var(--f-serif);font-weight:900;font-size:30px;line-height:1.25}
+.ditch p{font-size:var(--fs-small);line-height:1.5}
+.ditch .road h3{font-size:32px}
+.ditch .d p{color:#5A4038}
+
+/* ---------- reveal（逐條點開） ---------- */
+.rvbox{display:flex;flex-direction:column;gap:12px;min-height:0}
+.rv{position:relative;cursor:pointer;transition:background .2s}
+.rv .rv-c{transition:opacity .25s}
+.rv:not(.shown) .rv-c{opacity:0}
+.rv:not(.shown){background:repeating-linear-gradient(135deg,rgba(42,37,33,.05) 0 8px,transparent 8px 16px),var(--fog)!important;border-style:dashed!important}
+.rv:not(.shown)::after{content:attr(data-h);position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-hand);font-weight:700;color:var(--mute);font-size:var(--fs-small)}
+.rv-ctl{display:flex;gap:12px;align-items:center}
+.btn{font-weight:700;font-size:var(--fs-tiny);letter-spacing:.06em;border:2px solid var(--ink);background:var(--card);color:var(--ink);padding:6px 16px;cursor:pointer;border-radius:2px;box-shadow:2px 2px 0 var(--ink);transition:transform .1s,box-shadow .1s}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:3px 3px 0 var(--ink)}
+.btn:active{transform:translate(2px,2px);box-shadow:0 0 0 var(--ink)}
+.btn.pri{background:var(--ink);color:var(--paper)}
+
+/* ---------- numbered cards ---------- */
+.g4{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.nc{display:flex;flex-direction:column;gap:6px;background:var(--card);border:1.5px solid #CFC5B3;padding:14px 16px;box-shadow:var(--sh);min-width:0}
+.nc .no{font-family:var(--f-serif);font-weight:900;font-size:30px;line-height:1;color:var(--red)}
+.nc h3{font-weight:900;font-size:var(--fs-small);line-height:1.35}
+.nc p{font-size:16px;line-height:1.55;color:#4D463F}
+.nc.hot{border-color:var(--red);border-width:2.5px}
+.nc.lg{padding:20px 22px;gap:10px}.nc.lg h3{font-size:28px}.nc.lg p{font-size:20px}.nc.lg .no{font-size:40px}
+.g2.grow,.g3.grow{align-content:center}
+.lst{display:flex;flex-direction:column;gap:10px}
+.lst li{display:grid;grid-template-columns:40px 1fr;gap:10px;align-items:baseline;line-height:1.5}
+.lst li>b:first-child{font-family:var(--f-serif);font-weight:900;color:var(--red);font-size:1.1em}
+.dot li{position:relative;padding-left:22px;line-height:1.55}
+.dot li+li{margin-top:6px}
+.dot li::before{content:"";position:absolute;left:2px;top:.62em;width:8px;height:8px;border-radius:50%;background:var(--red)}
+
+/* ---------- shift rows（典範轉移） ---------- */
+.shift{display:grid;grid-template-columns:1fr 64px 1fr;align-items:center;gap:10px;background:var(--card);border:1.5px solid #CFC5B3;padding:12px 18px;box-shadow:var(--sh)}
+.shift .from{color:var(--mute);font-family:var(--f-serif);font-weight:700;font-size:var(--fs-small);line-height:1.4}
+.shift .to{font-family:var(--f-serif);font-weight:900;font-size:var(--fs-body);line-height:1.4}
+.shift .arw{font-family:var(--f-lat);font-size:34px;color:var(--red);text-align:center;line-height:1}
+.shift small{display:block;font-family:var(--f-lat);font-style:italic;font-weight:500;font-size:17px;color:var(--mute)}
+
+/* ---------- timeline ---------- */
+.tline{position:relative;display:grid;grid-template-columns:repeat(var(--n,4),1fr);gap:16px;padding-top:30px}
+.tline::before{content:"";position:absolute;left:0;right:0;top:12px;height:3px;background:var(--ink)}
+.tline .ev{position:relative;display:flex;flex-direction:column;gap:6px;min-width:0}
+.tline .ev::before{content:"";position:absolute;top:-25px;left:0;width:16px;height:16px;border-radius:50%;background:var(--paper);border:3px solid var(--ink)}
+.tline .ev.bad::before{background:var(--red);border-color:var(--red)}
+.tline .yr{font-family:var(--f-lat);font-weight:600;font-size:36px;line-height:1}
+.tline .ev p{font-size:20px;line-height:1.55}
+
+/* ---------- quadrant（信念 × 同理） ---------- */
+.q4{position:relative;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:10px;padding:0 0 34px 40px}
+.q4 .ax-y{position:absolute;left:0;top:0;bottom:34px;width:30px;display:flex;align-items:center;justify-content:center;writing-mode:vertical-rl;font-weight:700;font-size:var(--fs-tiny);letter-spacing:.14em;border-right:3px solid var(--ink)}
+.q4 .ax-x{position:absolute;left:40px;right:0;bottom:0;height:30px;text-align:center;font-weight:700;font-size:var(--fs-tiny);letter-spacing:.14em;border-top:3px solid var(--ink);line-height:30px}
+.q4 .qd{display:flex;flex-direction:column;justify-content:center;gap:2px;padding:10px 14px;background:var(--card);border:1.5px solid #CFC5B3;min-width:0}
+.q4 .qd h3{font-family:var(--f-serif);font-weight:900;font-size:var(--fs-body);line-height:1.3}
+.q4 .qd p{font-size:15px;line-height:1.45;color:var(--mute)}
+.q4 .qd.best{background:var(--note);border:2.5px solid var(--red)}
+
+/* ---------- discussion station ---------- */
+.stn{display:grid;grid-template-columns:1.45fr 1fr;gap:30px;min-height:0}
+.stn .qq{font-family:var(--f-serif);font-weight:900;font-size:30px;line-height:1.5}
+.timer{display:flex;flex-direction:column;align-items:center;gap:10px;background:var(--card);border:2px solid var(--ink);padding:14px 16px 16px;box-shadow:3px 3px 0 var(--ink)}
+.timer .tm-h{font-size:var(--fs-tiny);letter-spacing:.14em;font-weight:700;color:var(--mute)}
+.timer .tm-d{font-family:var(--f-lat);font-weight:600;font-size:76px;line-height:1;font-variant-numeric:tabular-nums}
+.timer.low .tm-d{color:var(--red)}
+.timer.done .tm-d{color:var(--red)}
+.timer.done .tm-h::after{content:"　時間到"}
+.timer .row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
+.timer .btn{padding:5px 12px}
+.fu{display:flex;flex-direction:column;gap:12px}
+.fu .rv{background:var(--note2);padding:12px 16px;border:1.5px solid #E2BBA7;font-size:var(--fs-small);line-height:1.5;min-height:58px}
+.fu .rv b{font-family:var(--f-sans);color:#9B5A40;margin-right:8px}
+
+/* ---------- checklist ---------- */
+.chk{display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start;background:var(--card);border:1.5px solid #CFC5B3;padding:12px 16px;cursor:pointer;text-align:left;font-size:var(--fs-small);line-height:1.5;width:100%}
+.chk .bx{width:30px;height:30px;border:2.5px solid var(--ink);display:grid;place-items:center;font-family:var(--f-hand);font-weight:700;font-size:28px;color:var(--red);line-height:1}
+.chk[aria-pressed="true"] .bx::after{content:"✓"}
+.chk[aria-pressed="true"]{background:#FFF7D6}
+.chk b{display:block;font-weight:900}
+
+/* ---------- misc pieces ---------- */
+.big-q{font-family:var(--f-serif);font-weight:900;font-size:44px;line-height:1.45}
+.big-q .r{color:var(--red)}
+.box{background:var(--card);border:1.5px solid #CFC5B3;padding:16px 20px;box-shadow:var(--sh);min-width:0}
+.box h3{font-weight:900;font-size:var(--fs-small);margin-bottom:6px}
+.box.dash{border-style:dashed;background:transparent;box-shadow:none}
+.chip{display:inline-block;font-size:16px;font-weight:700;border:1.5px solid var(--ink);background:var(--card);padding:1px 10px;margin:3px 4px 3px 0;border-radius:2px;line-height:1.6}
+.sil{display:flex;flex-direction:column;align-items:center;gap:10px}
+.sil svg{width:120px;height:auto}
+.vsg{display:flex;flex-direction:column;justify-content:center;gap:22px;background:var(--card);border:1.5px solid var(--rule);padding:14px 26px;box-shadow:var(--sh);min-height:0}
+.vsg .vs{border-left:0;padding-left:0}
+.prayer{font-family:var(--f-serif);font-weight:600;font-size:var(--fs-body);line-height:1.75;background:var(--card);border:1.5px solid var(--rule);padding:20px 30px;box-shadow:var(--sh)}
+.prayer p+p{margin-top:10px}
+.foot{font-weight:900;font-size:var(--fs-small);text-align:center;border-top:1.5px solid var(--rule);padding-top:10px}
+.foot .r{color:var(--red)}
+.vsx{font-size:30px;font-family:var(--f-lat);font-style:italic;color:var(--red);text-align:center;align-self:center}
+.circle2{display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:center}
+.circle2 .cc{aspect-ratio:1;border-radius:50%;border:2.5px solid var(--ink);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:46px;text-align:center;min-width:0}
+.circle2 .cc + .cc{margin-left:-60px;border-color:var(--red)}
+.circle2 .cc h3{font-family:var(--f-serif);font-weight:900;font-size:28px;line-height:1.25}
+.circle2 .cc p{font-size:17px;line-height:1.5}
+.circle2 .cc .kk{font-size:var(--fs-tiny);letter-spacing:.14em;font-weight:700;color:var(--mute)}
+
+/* ---------- bar + notes ---------- */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:20;height:calc(60px + env(safe-area-inset-bottom,0px));padding:0 max(16px,env(safe-area-inset-right,0px)) env(safe-area-inset-bottom,0px) max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;gap:10px;background:#1C1917;color:var(--paper)}
+.prog{position:absolute;left:0;right:0;top:0;height:4px;background:rgba(251,247,238,.15)}
+.prog span{display:block;height:100%;background:var(--hi);transition:width .3s}
+.nb{background:transparent;color:var(--paper);border:2px solid rgba(251,247,238,.35);height:38px;min-width:42px;padding:0 12px;cursor:pointer;font-weight:700;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:8px}
+.nb:hover:not(:disabled){border-color:var(--hi);color:var(--hi)}
+.nb:disabled{opacity:.3;cursor:default}
+.nb[aria-pressed="true"]{background:var(--hi);color:var(--ink);border-color:var(--hi)}
+.nb svg{width:16px;height:16px}
+a.nb{text-decoration:none}
+.nb kbd{font-family:var(--f-lat);font-size:15px;opacity:.75}
+.count{font-family:var(--f-lat);font-size:22px;letter-spacing:.04em;min-width:72px;text-align:center;font-variant-numeric:tabular-nums}
+.count b{font-weight:600;color:var(--hi)}
+.bt{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:700;font-size:15px;opacity:.85;padding-left:6px}
+.notes-panel{position:fixed;left:50%;bottom:calc(74px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);width:min(880px,calc(100% - 32px));max-height:34vh;overflow:auto;background:var(--paper);color:var(--ink);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:14px 20px;font-size:16px;line-height:1.7;z-index:21}
+.notes-panel b{display:block;font-weight:900;margin-bottom:4px}
+.notes-panel .skip{display:inline-block;background:var(--red);color:#fff;font-weight:900;font-size:13px;padding:0 8px;margin-right:8px;letter-spacing:.06em}
+.notes-panel p+p{margin-top:6px}
+.notes-panel .ntm{font-weight:700;color:var(--mute)}
+.notes-panel .ntl{padding-left:1.2em}
+.notes-panel .ntp{color:var(--mute)}
+.nk{display:inline-block;margin-right:8px;padding:0 6px;border:2px solid var(--ink);font-size:.72em;font-weight:900;line-height:1.5;letter-spacing:.06em;vertical-align:.12em;white-space:nowrap;color:var(--ink)}
+.nk-say{background:#D3E9FF}.nk-ask{background:#FFDCD8}.nk-stop{background:#FFE047}.nk-go,.nk-fin{background:#D8F0E3}.nk-prep{background:#ECEBF0}.nk-warn{background:#E5383B;color:#fff}
+.notes .skip{display:none}
+.defs{position:absolute;width:0;height:0;overflow:hidden}
+
+@media (prefers-reduced-motion:reduce){
+  .slide,.slide.on,.btn,.rv,.rv .rv-c,.prog span{transition:none!important}
+}
+
+/* ---------- phones & portrait: stacked pages ---------- */
+@media (max-width:760px),(orientation:portrait) and (max-width:1100px){
+  :root{--fs-mega:36px;--fs-h:25px;--fs-verse:17.5px;--fs-lead:19px;--fs-body:16.5px;--fs-small:16px;--fs-tiny:14.5px}
+  body{overflow-x:hidden;overflow-y:auto}
+  .viewport{position:static;padding-block:16px 32px}
+  .deck{height:auto;display:flex;flex-direction:column;gap:26px}
+  .slide{position:relative;left:auto;top:auto;width:auto;height:auto;transform:none;opacity:1;visibility:visible;transition:none;box-shadow:0 10px 24px rgba(0,0,0,.45)}
+  .slide::before{background:linear-gradient(90deg,transparent 22px,var(--red-l) 22px 23.5px,transparent 23.5px)}
+  .page,.cv{position:relative;inset:auto;padding:20px 16px 44px 36px;gap:14px}
+  .bar,.notes-panel{display:none!important}
+  .cols,.g4,.g3,.g2,.whos,.stn,.ditch,.circle2,.legend li{grid-template-columns:1fr}
+  .tline{grid-template-columns:1fr;padding-top:0;padding-left:28px}
+  .tline::before{left:7px;right:auto;top:0;bottom:0;width:3px;height:auto}
+  .tline .ev::before{top:4px;left:-28px}
+  .rh{flex-wrap:wrap;white-space:normal;gap:4px 10px}
+  .rh .src{margin-left:0}
+  .slide.chap .page{flex-direction:column;align-items:flex-start;gap:8px}
+  .chap-n{font-size:90px;width:auto;text-align:left}
+  .chap-t{font-size:30px}
+  .ditch .d.l,.ditch .d.r{border-radius:0;border:2px solid var(--red)}
+  .ditch h3,.ditch .road h3{font-size:22px}
+  .circle2 .cc{aspect-ratio:auto;border-radius:24px;padding:18px}
+  .circle2 .cc + .cc{margin-left:0;margin-top:12px}
+  .circle2 .cc h3{font-size:20px}
+  .q4{padding:0;grid-template-columns:1fr;grid-template-rows:none}
+  .q4 .ax-y,.q4 .ax-x{display:none}
+  .big-q{font-size:24px}
+  .aq.big{font-size:21px}
+  .stn .qq{font-size:20px}
+  .timer .tm-d{font-size:48px}
+  .toc button{grid-template-columns:40px 1fr auto;font-size:16px}
+  .toc .dots{display:none}
+  .shift{grid-template-columns:1fr;gap:4px}
+  .shift .arw{transform:rotate(90deg);text-align:left;width:30px}
+  .cv-art svg{max-width:260px}
+  .rv:not(.shown) .rv-c{opacity:1}
+  .rv:not(.shown){background:var(--card)!important;border-style:solid!important}
+  .rv:not(.shown)::after{display:none}
+  .rv-ctl{display:none}
+  .fu .rv:not(.shown){background:var(--note2)!important}
+  .sticky{font-size:16px}
+  .mg{font-size:16px}
+  .hide-m{display:none}
+  .vs sup{font-size:14px}
+}
+
+/* ---------- 提摩太小組 2026-11-15：新增 ---------- */
+.cols.grow{align-content:center}
+.nc p{font-size:19px;line-height:1.55}
+.nc.lg p{font-size:21px}
+.nmlist{display:flex;flex-direction:column;gap:9px}
+.nmlist li{display:grid;grid-template-columns:108px 1fr auto;gap:8px;align-items:baseline;font-size:21px;line-height:1.5;border-bottom:1px dashed var(--rule);padding-bottom:6px}
+.nmlist li:last-child{border-bottom:0}
+.nmlist b{font-weight:900}
+.nmlist .en{font-size:19px;color:var(--ink);white-space:nowrap}
+.nmlist i{font-family:var(--f-lat);font-size:16px;color:var(--mute)}
+.gk{font-family:var(--f-lat);font-style:normal;font-weight:500}
+.oq::before{content:"文獻"}
+.chi{display:flex;flex-direction:column;gap:10px;justify-content:center}
+.chi-r{display:grid;grid-template-columns:44px 1fr 1fr;gap:10px;align-items:center;background:var(--card);border:1.5px solid #CFC5B3;padding:11px 14px;font-size:21px;line-height:1.4;box-shadow:var(--sh)}
+.chi-r .l{font-family:var(--f-serif);font-weight:900;color:var(--red);font-size:22px}
+.chi-r.ax{grid-template-columns:44px 1fr;border:2px solid var(--ink);font-weight:900}
+.chi-r.ax .l{font-family:var(--f-lat);font-size:19px;color:var(--ink)}
+.chi-r .res{background:var(--note);padding:3px 12px;font-weight:900;font-family:var(--f-serif)}
+.chi-r .res.bad{background:var(--note2);color:var(--red)}
+.chi-r u{text-decoration-color:var(--red);text-decoration-thickness:2.5px;text-underline-offset:5px}
+@media (max-width:760px),(orientation:portrait) and (max-width:1100px){
+  .chi-r,.chi-r.ax{grid-template-columns:1fr;margin-left:0!important;gap:4px}
+  .rvbox .nc.rv{margin-left:0!important;margin-right:0!important}
+  .cols{grid-template-columns:1fr!important}
+}
+.credit{font-size:var(--fs-tiny);color:var(--mute);line-height:1.5;border-top:1px dashed var(--rule);padding-top:10px}
+</style>
+</head>
+<body>
+<!-- shared drawings -->
+<svg class="defs" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="fig" viewBox="0 0 40 100"><circle cx="20" cy="12" r="9"/><path d="M9 26 Q20 20 31 26 L34 58 L28 58 L27 98 L21 98 L20 64 L19 98 L13 98 L12 58 L6 58 Z"/></symbol>
+  </defs>
+</svg>
+
+<main class="viewport" id="viewport">
+<div class="deck" id="deck">
+
+<!-- 1 cover -->
+<section class="slide" data-title="封面">
+  <div class="page cv">
+    <div class="cv-top"><span>提摩太小組</span><span class="en">2026 / 11 / 15</span></div>
+    <div class="cols grow" style="--c:1.25fr 1fr">
+      <div class="stack ctr" style="--g:18px">
+        <p class="kick">釋經講道 ⦁ 羅馬書 2:1–16</p>
+        <h1 class="cv-title"><span>當你手持解剖刀</span><span class="r">站上終末法庭</span></h1>
+        <p class="cv-en">Romans 2:1–16 — The Judge in the Dock</p>
+        <p class="cv-meta"><span><b>自命清高的審判官</b></span><span>遇見不偏待人的神</span></p>
+        <p class="mg" style="margin-top:10px">我們太習慣站在審判席上，卻忘了自己也在被告席上。</p>
+      </div>
+      <div class="cv-art">
+        <svg viewBox="0 0 440 400" role="img" aria-label="一把法槌和一座天平">
+          <g stroke="#2A2521" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+            <path d="M220 70 V300"/><path d="M150 300 H290"/><path d="M130 316 H310" stroke-width="6"/>
+            <path d="M90 110 H350"/><circle cx="220" cy="70" r="9" fill="#A3432A" stroke="#A3432A"/>
+            <path d="M90 110 L54 200 M90 110 L126 200"/><path d="M44 200 H136 Q130 236 90 236 Q50 236 44 200 Z" fill="#FFFDF8"/>
+            <path d="M350 110 L314 216 M350 110 L386 216"/><path d="M304 216 H396 Q390 252 350 252 Q310 252 304 216 Z" fill="#FFFDF8"/>
+          </g>
+          <g transform="rotate(-32 300 330)"><rect x="262" y="306" width="84" height="40" rx="5" fill="#A3432A"/><rect x="296" y="346" width="12" height="78" rx="3" fill="#2A2521"/></g>
+          <g transform="rotate(8 96 62)"><rect x="44" y="24" width="104" height="70" fill="#F7E8A4"/><text x="58" y="56" font-family="LXGW WenKai TC, Kaiti TC, serif" font-weight="700" font-size="19" fill="#8A7420">你這人哪！</text><text x="58" y="82" font-family="EB Garamond, serif" font-style="italic" font-size="17" fill="#8A7420">ō anthrōpe</text></g>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 2 toc -->
+<section class="slide" data-title="今天的路線">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">目次</span><span class="src">點一行，直接翻過去</span></header>
+    <div class="cols grow" style="--c:1.35fr 1fr;--g:34px">
+      <div class="toc" style="justify-content:center">
+        <button data-go="3"><span class="n">序</span><span class="t">引言<small>修辭陷阱與牧養的鏡子</small></span><span class="dots"></span><span class="p">3</span></button>
+        <button data-go="9"><span class="n">一</span><span class="t">自我加冕的審判官<small>2:1–5</small></span><span class="dots"></span><span class="p">9</span></button>
+        <button data-go="20"><span class="n">二</span><span class="t">終末法庭的最高憲章<small>2:6–11</small></span><span class="dots"></span><span class="p">20</span></button>
+        <button data-go="36"><span class="n">三</span><span class="t">從石版到人心隱祕處<small>2:12–16</small></span><span class="dots"></span><span class="p">36</span></button>
+        <button class="st" data-go="46"><span class="n">應</span><span class="t">三個牧養呼召<small>放下審判槌</small></span><span class="dots"></span><span class="p">46</span></button>
+        <button data-go="51"><span class="n">結</span><span class="t">今天的一句話</span><span class="dots"></span><span class="p">51</span></button>
+        <button data-go="52"><span class="n">附</span><span class="t">經文與文獻<small>回去再讀</small></span><span class="dots"></span><span class="p">52</span></button>
+        <button data-go="53"><span class="n">附</span><span class="t">人名對照<small>中文與英文</small></span><span class="dots"></span><span class="p">53</span></button>
+      </div>
+      <div class="legend" style="align-self:center">
+        <h3>這份筆記怎麼讀</h3>
+        <ul class="stack" style="--g:12px">
+          <li><span class="tag t-vs">經文</span><span>藍黑色明體：新標點和合本</span></li>
+          <li><span class="tag t-aq">學者說</span><span>黑色直線框：學者的話或大意</span></li>
+          <li><span class="tag t-oq">文獻</span><span>灰框：引用的古代文獻</span></li>
+          <li><span class="tag t-mg">我的眉批</span><span>紅色手寫：講者的整理與提醒</span></li>
+          <li><span class="tag t-q">回應</span><span>便利貼：自省與回應</span></li>
+        </ul>
+        <p class="credit">經文引自《新標點和合本》（神版）。© 1988, 1989, 1996 聯合聖經公會。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 3 scene -->
+<section class="slide" data-title="引言：一個熟悉的場景" id="open">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">引言</span><span class="src">想像一下</span></header>
+    <h2 class="ttl">一個我們在事奉中很熟悉的場景</h2>
+    <div class="cols grow" style="--c:1.15fr 1fr;--g:34px;align-items:center">
+      <div class="stack" style="--g:16px">
+        <p class="small">主日學教室裡，或一場福音策略會議上，講員慷慨激昂地剖析當代文化的敗壞：</p>
+        <p><span class="chip">偶像崇拜</span><span class="chip">性倫理的崩潰</span><span class="chip">貪婪</span><span class="chip">嫉妒</span><span class="chip">惡毒</span><span class="chip">背約</span><span class="chip">無親情</span></p>
+        <p class="small">台下的人一邊聽，一邊頻頻點頭。</p>
+      </div>
+      <div class="stack" style="--g:20px">
+        <div class="sticky"><span class="h">台下的心聲</span>「阿們！講得太好了！<br>這個世代真是墮落到無可救藥，神公義的忿怒確實正在顯明！」</div>
+        <p class="mg r">這正是保羅在羅馬書 1:18–32 營造的氣氛。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 Rom 1:18-32 -->
+<section class="slide" data-title="引言：1:18–32 的氣氛">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">引言</span><span class="src">前文：1:18–32</span></header>
+    <h2 class="ttl">第一章的聽眾，正在鼓掌<small>保羅用猶太人熟悉的語彙，痛陳外邦世界的罪</small></h2>
+    <div class="cols grow" style="--c:1fr 1.1fr;--g:30px">
+      <div class="stack" style="--g:12px">
+        <div class="box"><h3>1:18–32 的控訴（第三人稱「他們」）</h3><ul class="dot small"><li>壓抑真理</li><li>把神的榮耀變為偶像</li><li>被神任憑，落在逆性的情慾和各樣不義裡</li></ul></div>
+        <div class="box dash"><p class="tiny"><b style="color:var(--ink)">背景：</b>這些語彙很接近第二聖殿時期猶太人批評外邦人的作品，特別是《所羅門智訓》13–14 章。</p></div>
+      </div>
+      <div class="stack ctr" style="--g:18px">
+        <p class="vs"><sup>32</sup>他們雖知道神判定行這樣事的人是當死的，然而他們不但自己去行，還喜歡別人去行。<cite>羅馬書 1:32</cite></p>
+        <div class="sticky p"><span class="h">聽信的人心裡想</span>「沒錯！『他們』這群不虔不義的外邦人，真是該死！」</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 apostrophe -->
+<section class="slide" data-title="引言：頓呼法，鏡頭反轉">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">引言</span><span class="src">新標點和合本</span></header>
+    <div class="cols grow" style="--c:1fr 1.25fr;--g:36px;align-items:center">
+      <div class="stack" style="--g:16px">
+        <p class="kick">修辭：頓呼法（apostrophe）</p>
+        <div class="shift"><div class="from">第三人稱<small>1:18–32</small></div><span class="arw">→</span><div class="to">第二人稱<small>2:1</small></div></div>
+        <p class="big-q" style="font-size:54px;text-align:center"><span class="strike">他們</span>　<span class="r">你</span></p>
+        <p class="mg" style="align-self:center">鏡頭一百八十度反轉，<br>指著那位正在點頭的審判官。</p>
+      </div>
+      <div class="vsg" style="padding:26px 30px">
+        <p class="vs" style="font-size:30px"><sup>1</sup><mark>你這論斷人的</mark>，無論你是誰，也<mark>無可推諉</mark>。你在甚麼事上論斷人，就在甚麼事上定自己的罪；因你這論斷人的，自己所行卻和別人一樣。<cite>羅馬書 2:1</cite></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 mirror -->
+<section class="slide" data-title="引言：牧養的鏡子">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">引言</span><span class="src">牧養的鏡子</span></header>
+    <h2 class="ttl">領袖特有的屬靈危機，藏得很深</h2>
+    <div class="g2 grow" style="align-items:stretch">
+      <div class="nc lg"><span class="no">席</span><h3>太習慣站在「審判席」</h3><p>我們天天研讀聖經、教導真理、牧養群羊，處理教會紀律和社會議題時也常常要作判斷，替神發言成了習慣。</p><p class="mg" style="font-size:22px">卻忘了自己也站在「被告席」上。</p></div>
+      <div class="nc lg"><span class="no">洞</span><h3>太習慣躲進「防空洞」</h3><p>用「神學知識」和「事奉職分」替自己築牆，以為這些能保護我們。</p><p class="mg r" style="font-size:22px">在不偏待人的審判主面前，沒有人有豁免權。</p></div>
+    </div>
+    <p class="foot">這段經文是一面鏡子，<span class="r">先照講的人，再照聽的人</span>。</p>
+  </div>
+</section>
+
+<!-- 7 stumbling blocks -->
+<section class="slide" data-title="引言：為什麼不能跳過第二章">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">引言</span><span class="src">學者怎麼看</span></header>
+    <h2 class="ttl">一段常被匆匆跳過的經文</h2>
+    <div class="cols grow" style="--c:1fr 1fr;--g:32px">
+      <div class="stack ctr" style="--g:18px">
+        <p class="aq">（羅 2:1–16）「遍布著釋經的絆腳石」。<span class="by">海斯（Richard B. Hays）</span></p>
+        <p class="small">對習慣把保羅簡化成「只講因信稱義、不講行為審判」的人來說，尤其如此。講道的人常常跳過第二章，急著趕到 3:21。</p>
+        <p class="vs sm">但如今，神的義在律法以外已經顯明出來……<cite>羅馬書 3:21</cite></p>
+      </div>
+      <div class="stack ctr" style="--g:18px">
+        <p class="aq">保羅在這裡不是虛晃一招，他在為整個福音奠定根基。<span class="by">賴特（N. T. Wright）｜大意</span></p>
+        <div class="sticky" style="font-size:22px">沒有先在終末法庭前被剝除一切自義和特權，就不會明白第三章十字架的恩典有多寶貴。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 8 three acts -->
+<section class="slide" data-title="引言：三個法庭現場">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">引言</span><span class="src">今天的三幕</span></header>
+    <h2 class="ttl">三個緊緊相扣的法庭現場</h2>
+    <div class="g3 grow" style="align-items:stretch">
+      <div class="nc lg"><span class="no">壹</span><h3>自我加冕的審判官</h3><p class="en" style="font-style:normal">2:1–5</p><p>論斷別人的人，怎麼替自己積蓄了終末的忿怒？</p></div>
+      <div class="nc lg hot"><span class="no">貳</span><h3>終末法庭的最高憲章</h3><p class="en" style="font-style:normal">2:6–11</p><p>神照各人的行為報應各人，而且絕不偏待人。</p></div>
+      <div class="nc lg"><span class="no">參</span><h3>從石版到人心隱祕處</h3><p class="en" style="font-style:normal">2:12–16</p><p>「聽道特權」的破產，「行道實際」的見證。</p></div>
+    </div>
+    <p class="mg" style="align-self:center;font-size:24px">「你」（2:1–5）→「各人」（2:6–11）→「人的隱祕事」（2:12–16）</p>
+  </div>
+</section>
+
+<!-- 9 chap 1 -->
+<section class="slide chap" data-title="一 扉頁：自我加冕的審判官" id="s1">
+  <div class="page">
+    <p class="chap-n">壹</p>
+    <div class="chap-b">
+      <p class="kick">羅馬書 2:1–5 ⦁ 第一幕</p>
+      <h2 class="chap-t">自我加冕的審判官</h2>
+      <p class="chap-s">他怎麼替自己積蓄了終末的忿怒？</p>
+      <ul class="chap-k"><li class="h">這一段會看到</li><li>「因此」和假想辯論體的修辭突襲</li><li>論斷／定罪的詞族雙關，和自我偶像化</li><li>被誤解的恩慈，被存起來的忿怒</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 10 text 2:1-5 -->
+<section class="slide" data-title="一 經文：羅馬書 2:1–5">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">新標點和合本</span></header>
+    <div class="cols grow" style="--c:1.75fr 1fr;--g:26px">
+      <div class="vsg">
+        <p class="vs" style="font-size:26px"><sup>1</sup>你這論斷人的，無論你是誰，也無可推諉。你在甚麼事上<mark>論斷人</mark>，就在甚麼事上<mark>定自己的罪</mark>；因你這論斷人的，自己所行卻和別人一樣。<sup>2</sup><mark>我們知道</mark>這樣行的人，神必照真理審判他。<sup>3</sup><mark>你這人哪</mark>，你論斷行這樣事的人，自己所行的卻和別人一樣，你以為能逃脫神的審判嗎？<sup>4</sup>還是你藐視他豐富的<mark>恩慈、寬容、忍耐</mark>，不曉得他的恩慈是領你悔改呢？<sup>5</sup>你竟任著你剛硬不悔改的心，<mark>為自己積蓄忿怒</mark>，以致神震怒，顯他公義審判的日子來到。<cite>羅馬書 2:1–5</cite></p>
+      </div>
+      <div class="stack ctr" style="--g:16px">
+        <p class="mg">留意人稱：<br>你 → 我們 → 你</p>
+        <p class="mg r">留意同一個字根：<br>論斷、定罪、審判</p>
+        <p class="mg">留意存進去的東西：<br>不是功德，是忿怒</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 dio / diatribe -->
+<section class="slide" data-title="一 「因此」與假想辯論體">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">修辭</span></header>
+    <h2 class="ttl">第一個字：「因此」<small><span class="gk">διό</span>（dio）｜和合本沒有譯出，原文在 2:1 句首</small></h2>
+    <div class="cols grow" style="--c:1fr 1.2fr;--g:30px">
+      <div class="stack" style="--g:14px">
+        <div class="box"><h3>它接得上嗎？</h3><p class="small">第一章講外邦人，第二章突然說「你這論斷人的」。布爾特曼和凱瑟曼曾認為這個「因此」沒有推論的功能，甚至懷疑 2:1 是後人加的旁註。</p></div>
+        <div class="box" style="border-color:var(--red);border-width:2.5px"><h3>接得上：它接的是 1:32</h3><p class="small">「正因為<b>你也知道</b>神判定行這樣事的人是當死的，<b>你也在那裡點頭定罪</b>，因此，你也無可推諉。」</p></div>
+      </div>
+      <div class="rvbox">
+        <p class="kick">假想辯論體（diatribe）：斯多亞派、犬儒派老師的教學法</p>
+        <div class="nc rv" data-h="第一步"><div class="rv-c"><h3>① 描述一種人人唾棄的惡行</h3><p>學生產生共鳴，對那些惡人嗤之以鼻。</p></div></div>
+        <div class="nc rv" data-h="第二步"><div class="rv-c"><h3>② 點名一位假想的對話者</h3><p>突然改用第二人稱單數：「你！」</p></div></div>
+        <div class="nc rv hot" data-h="第三步"><div class="rv-c"><h3>③ 揭穿：你心裡也有同樣的毛病</h3><p>保羅在 2:1 用的，正是這個手法。</p></div></div>
+        <div class="rv-ctl"><button class="btn pri rv-next">下一步</button><button class="btn rv-all">全部打開</button><span class="mg" style="font-size:17px">史托爾斯、朗尼克等人的修辭研究</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 12 persons / syllogism -->
+<section class="slide" data-title="一 人稱切換：三段論的合圍">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">句法</span></header>
+    <h2 class="ttl">五節經文，三次換人稱，一個逃不掉的三段論</h2>
+    <div class="cols grow" style="--c:1.25fr 1fr;--g:28px;align-items:center">
+      <div class="rvbox">
+        <div class="shift rv" data-h="2:1"><div class="rv-c from">2:1　他們 → <b>你</b><small>ō anthrōpe（人哪！）</small></div><span class="arw rv-c">→</span><div class="rv-c to" style="font-size:20px">突襲：凡論斷人的，都無可推諉</div></div>
+        <div class="shift rv" data-h="2:2"><div class="rv-c from">2:2　你 → <b>我們</b><small>oidamen de hoti（我們知道）</small></div><span class="arw rv-c">→</span><div class="rv-c to" style="font-size:20px">拉攏：神按真理審判，「我們」都同意</div></div>
+        <div class="shift rv" data-h="2:3"><div class="rv-c from">2:3　我們 → <b>你！</b><small>sy（強調的「你」）＋ ō anthrōpe</small></div><span class="arw rv-c">→</span><div class="rv-c to" style="font-size:20px">翻臉：你以為<b>你</b>能逃脫嗎？</div></div>
+        <div class="rv-ctl"><button class="btn pri rv-next">下一節</button><button class="btn rv-all">全部打開</button></div>
+      </div>
+      <div class="stack" style="--g:10px">
+        <div class="box"><p class="kick">大前提（2:2）</p><p class="small">「我們知道」神必按真理審判行這樣事的人。</p><p class="mg" style="font-size:16px">對話者自己簽字同意的。（參箴言 24:12）</p></div>
+        <div class="box"><p class="kick">小前提（2:1 下、2:3 上）</p><p class="small">「你」自己也在行同樣的事。</p></div>
+        <div class="box" style="border-color:var(--red);border-width:2.5px"><p class="kick">結論（2:1 上、2:3 下）</p><p class="small"><b>「你」逃不掉神的審判；你已經定了自己的罪。</b></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 13 krino wordplay -->
+<section class="slide" data-title="一 詞族雙關：論斷與定罪">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">原文字詞</span></header>
+    <h2 class="ttl">槌子落下，砸中的是自己</h2>
+    <div class="cols grow" style="--c:1.2fr 1fr;--g:34px;align-items:center">
+      <div class="stack" style="--g:18px">
+        <div class="shift" style="padding:20px 24px">
+          <div class="to" style="font-size:30px"><span class="gk">κρίνεις</span><small>krineis｜你論斷（別人）</small></div>
+          <span class="arw">→</span>
+          <div class="to" style="font-size:30px;color:var(--red)"><span class="gk">κατακρίνεις</span><small>katakrineis｜你定（自己的）罪</small></div>
+        </div>
+        <p class="small">同一個字根 <span class="en">krinō</span>（審判）。第二個動詞多了加強語氣的字首 <b class="red">kata-</b>：向下壓制、宣判有罪。</p>
+        <p class="vs sm">你在甚麼事上論斷人，就在甚麼事上定自己的罪。<cite>羅馬書 2:1</cite></p>
+      </div>
+      <div class="stack ctr" style="align-items:center;--g:18px">
+        <svg viewBox="0 0 300 250" style="width:280px" role="img" aria-label="一把法槌往下敲，箭頭繞回來指向拿槌的人">
+          <g transform="rotate(-28 150 90)"><rect x="100" y="60" width="100" height="46" rx="6" fill="#A3432A"/><rect x="143" y="106" width="14" height="96" rx="3" fill="#2A2521"/></g>
+          <path d="M58 206 H242" stroke="#2A2521" stroke-width="5" stroke-linecap="round"/>
+          <path d="M70 150 Q20 90 80 44" fill="none" stroke="#A3432A" stroke-width="3.5" stroke-linecap="round" stroke-dasharray="7 7"/><path d="M80 44 l-16 2 M80 44 l-3 16" stroke="#A3432A" stroke-width="3.5" stroke-linecap="round"/>
+        </svg>
+        <p class="mg r" style="font-size:22px">拿起法槌宣判別人有罪，<br>槌子落下的那一刻，<br>砸中的是自己的頭頂。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 14 judging vs usurping -->
+<section class="slide" data-title="一 保羅反對分辨是非嗎？">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">神學問題</span></header>
+    <h2 class="ttl">保羅反對基督徒「分辨是非」嗎？當然不是</h2>
+    <div class="cols grow" style="--c:1fr 1fr;--g:30px">
+      <div class="stack" style="--g:12px">
+        <p class="kick">保羅自己也要求判斷</p>
+        <div class="box"><ul class="dot small"><li><b>林前 5 章：</b>教會要審判教會內的淫亂</li><li><b>林前 6 章：</b>聖徒將來要審判世界</li><li><b>羅 2:27：</b>守律法的外邦人，要審判犯律法的猶太人</li></ul></div>
+        <p class="mg">所以 2:1 責備的，不是合乎聖經的道德判斷。</p>
+      </div>
+      <div class="stack" style="--g:14px">
+        <p class="kick">2:1 責備的是什麼？</p>
+        <p class="aq" style="font-size:23px">保羅譴責的，是人把審判官的角色攬到自己身上。<span class="en">arrogation to oneself of the role of judge</span><span class="by">賽弗里德（Mark Seifrid）</span></p>
+        <p class="vs sm">設立律法和判斷人的，只有一位，就是那能救人也能滅人的。你是誰，竟敢論斷別人呢？<cite>雅各書 4:12（參太 7:1–5）</cite></p>
+        <div class="box" style="border-color:var(--red);border-width:2.5px"><p class="small"><b>自我任命的審判官</b>（<span class="en">self-appointed judges</span>）：沒有神的全知，看不透人的隱祕事（2:16）；也沒有純全無瑕的品格。<b>坐上審判席的那一刻，「自我」成了取代神的偶像。</b></p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 15 searchlight -->
+<section class="slide" data-title="一 高聲定罪是一種防衛">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">人心</span></header>
+    <div class="cols grow" style="--c:1.15fr 1fr;--g:36px;align-items:center">
+      <div class="stack" style="--g:20px">
+        <p class="big-q" style="font-size:36px">高聲定罪別人，<br>往往是在<span class="r">掩飾自己</span>。</p>
+        <p class="aq" style="font-size:22px">這正是心理學所說的「投射作用」（projection）。<span class="by">斯托得（John Stott）｜大意</span></p>
+        <p class="small">為什麼我們這麼喜歡在長執會、同工群組、茶餘飯後，義憤填膺地討論別人的軟弱、偏差與敗壞？</p>
+        <p class="vs sm">大衛就甚惱怒那人，對拿單說：「……行這事的人該死！」……拿單對大衛說：「<mark>你就是那人！</mark>」<cite>撒母耳記下 12:5、7（參太 7:1–5）</cite></p>
+      </div>
+      <div class="stack ctr" style="align-items:center;--g:16px">
+        <svg viewBox="0 0 340 240" style="width:320px" role="img" aria-label="探照燈照向遠處的人，拿燈的人站在陰影裡">
+          <rect x="0" y="0" width="340" height="240" fill="#2B2724"/>
+          <path d="M96 150 L330 60 L330 220 Z" fill="#F2D680" opacity=".85"/>
+          <use href="#fig" x="262" y="92" width="40" height="100" fill="#2A2521"/>
+          <use href="#fig" x="36" y="110" width="44" height="110" fill="#6F665C"/>
+          <rect x="78" y="138" width="24" height="22" rx="4" fill="#FBF7EE"/>
+        </svg>
+        <p class="mg" style="font-size:22px">探照燈全打在別人身上，<br>自己的黑暗就藏進了陰影裡。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 16 same things -->
+<section class="slide" data-title="一 「自己所行卻和別人一樣」">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">新標點和合本</span></header>
+    <h2 class="ttl">「自己所行卻和別人一樣」<small><span class="en">ta gar auta prasseis</span>｜2:1、2:3 說了兩次</small></h2>
+    <div class="cols grow" style="--c:1.3fr 1fr;--g:28px">
+      <div class="vsg">
+        <p class="vs" style="font-size:22px"><sup>29</sup>裝滿了各樣不義、邪惡、貪婪、惡毒；滿心是嫉妒、凶殺、<mark>爭競</mark>、詭詐、毒恨；<sup>30</sup>又是<mark>讒毀的</mark>、<mark>背後說人的</mark>、怨恨神的、侮慢人的、<mark>狂傲的</mark>、<mark>自誇的</mark>、捏造惡事的、違背父母的、<sup>31</sup>無知的、背約的、無親情的、<mark>不憐憫人的</mark>。<cite>羅馬書 1:29–31</cite></p>
+      </div>
+      <div class="stack" style="--g:10px">
+        <p class="mg">也許沒有 1:26–27 那樣外顯的罪。<br>但這份清單呢？</p>
+        <p class="kick">這份清單，同工版</p>
+        <div class="box" style="padding:12px 18px"><ul class="dot small"><li>事工意見不合，心生<b>爭競</b></li><li>在背後<b>讒毀</b>同工</li><li>服事有果效，暗自<b>狂傲、自誇</b></li><li>對軟弱的肢體<b>不憐憫</b></li></ul></div>
+        <div class="sticky" style="font-size:19px"><span class="h">在心裡回答</span>面對這份清單，我敢說自己完全清白嗎？</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 16b three blind spots -->
+<section class="slide" data-title="一 論斷者的三個盲點">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">小結</span></header>
+    <h2 class="ttl">保羅斥責的「論斷」，錯在哪裡？<small>不是分辨是非，是三個致命的盲點</small></h2>
+    <div class="g3 grow" style="align-items:stretch">
+      <div class="nc lg"><span class="no">1</span><h3 style="font-size:25px">篡奪神的主權</h3><p>自我任命的審判官：沒有神的全知，也沒有無瑕的品格，卻坐上神的位子。「自我」成了偶像。</p><p class="tiny">雅 4:11–12、太 7:1–5</p></div>
+      <div class="nc lg"><span class="no">2</span><h3 style="font-size:25px">知法犯法的假冒為善</h3><p>以為口頭上反對罪，自己就有豁免權。高聲定罪別人，逃避自己該悔改的責任。</p><p class="tiny">撒下 12:1–15、太 7:1–5</p></div>
+      <div class="nc lg hot"><span class="no">3</span><h3 style="font-size:25px">把次要的事當武器</h3><p>在飲食、守日這類非關福音核心的次要意見（<span class="en">adiaphora</span>）上，鄙視、定罪弟兄姊妹。</p><p class="tiny">羅 14:3–5、10、13、22</p></div>
+    </div>
+    <p class="vs sm" style="align-self:center">你這假冒為善的人！先去掉自己眼中的樑木，然後才能看得清楚，去掉你弟兄眼中的刺。<cite>馬太福音 7:5</cite></p>
+  </div>
+</section>
+
+<!-- 17 kindness / Wisdom -->
+<section class="slide" data-title="一 被誤讀的恩慈">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">2:4 的背景</span></header>
+    <h2 class="ttl">同樣的「恩慈、寬容、忍耐」，兩種讀法</h2>
+    <div class="cols grow" style="--c:1fr 1fr;--g:26px">
+      <div class="stack" style="--g:12px">
+        <p class="kick">《所羅門智訓》11–16 章的讀法<span class="tiny">　特別是 12:10–22、15:1–4</span></p>
+        <div class="box"><ul class="dot small"><li>神對外邦人（埃及人、迦南人）：降下毀滅的忿怒</li><li>神對選民：像父親管教兒子，輕輕責打</li></ul></div>
+        <div class="oq" style="font-size:21px">我們不會犯罪，因為我們知道你認定我們是屬你的。<span class="by">《所羅門智訓》15:2｜節譯</span></div>
+        <p class="mg">恩慈 ＝ 我的免死金牌</p>
+      </div>
+      <div class="stack" style="--g:12px">
+        <p class="kick">保羅的讀法（2:4）<span class="tiny">　三個字呼應出埃及記 34:6</span></p>
+        <div class="g3" style="gap:10px">
+          <div class="nc" style="text-align:center"><h3>恩慈</h3><p class="en">chrēstotēs</p></div>
+          <div class="nc" style="text-align:center"><h3>寬容</h3><p class="en">anochē</p></div>
+          <div class="nc" style="text-align:center"><h3>忍耐</h3><p class="en">makrothymia</p></div>
+        </div>
+        <p class="vs sm">不曉得他的恩慈是<mark>領你悔改</mark>呢？<cite>羅馬書 2:4｜eis metanoian se agei</cite></p>
+        <div class="box" style="border-color:var(--red);border-width:2.5px"><p class="small">神還沒有審判你，不是因為你身分特殊，也不是祂縱容罪；祂在給時間、給空間。把它當成特權，就是<b class="red">藐視</b>（<span class="en">kataphroneis</span>）祂的恩慈。</p></div>
+        <p class="mg r">恩慈 ＝ 悔改的機會</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 18 treasuring wrath -->
+<section class="slide" data-title="一 存進去的是忿怒">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">一｜自我加冕的審判官</span><span class="src">2:5 的反諷</span></header>
+    <h2 class="ttl">他以為在存財寶，其實在存忿怒</h2>
+    <div class="cols grow" style="--c:1fr 1.1fr;--g:34px;align-items:center">
+      <div class="stack" style="--g:16px">
+        <p class="vs"><sup>5</sup>你竟任著你<mark>剛硬</mark>不悔改的心，<mark>為自己積蓄忿怒</mark>，以致神震怒，顯他公義審判的日子來到。<cite>羅馬書 2:5</cite></p>
+        <div class="box"><p class="gk" style="font-size:26px">θησαυρίζεις σεαυτῷ ὀργήν</p><p class="tiny">thēsaurizeis seautō orgēn｜你為自己積存忿怒。thēsaurizō：把財寶存進金庫的商業動詞（名詞 thēsauros，寶庫）</p></div>
+        <div class="box"><p class="gk" style="font-size:26px">σκληρότης</p><p class="tiny">sklērotēs｜剛硬。醫學名詞「動脈硬化」（sclerosis）的詞源</p></div>
+      </div>
+      <div class="stack" style="--g:14px">
+        <div class="box" style="border:2px solid var(--ink);padding:18px 24px;transform:rotate(1deg)">
+          <p class="kick" style="text-align:center">天 上 的 存 摺</p>
+          <ul class="stack small" style="--g:8px;margin-top:10px">
+            <li><b>戶名：</b>論斷人的那一位（seautō，為你自己）</li>
+            <li><b>他以為存的是：</b><span class="strike">功德與財寶</span></li>
+            <li><b>實際存入的是：</b><span class="red"><b>忿怒</b></span></li>
+            <li><b>每次存入：</b>聽見真理的提醒，卻硬著心不認罪，繼續指責別人</li>
+            <li><b>到期日：</b>神顯祂公義審判的日子</li>
+          </ul>
+        </div>
+        <p class="mg r" style="font-size:22px">神現在的沉默不是認可，是忍耐。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 19 chap 2 -->
+<section class="slide chap" data-title="二 扉頁：終末法庭的最高憲章" id="s2">
+  <div class="page">
+    <p class="chap-n">貳</p>
+    <div class="chap-b">
+      <p class="kick">羅馬書 2:6–11 ⦁ 第二幕</p>
+      <h2 class="chap-t">終末法庭的最高憲章</h2>
+      <p class="chap-s">神照各人的行為報應各人，而且絕不偏待人</p>
+      <ul class="chap-k"><li class="h">這一段會看到</li><li>「你」退場，換成莊嚴的第三人稱</li><li>交叉對稱的結構，和兩次「先是猶太人」</li><li>「按行為報應」和「因信稱義」矛盾嗎？</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 20 text 2:6-11 -->
+<section class="slide" data-title="二 經文：羅馬書 2:6–11">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">新標點和合本</span></header>
+    <div class="cols grow" style="--c:1.75fr 1fr;--g:26px">
+      <div class="vsg">
+        <p class="vs" style="font-size:27px"><sup>6</sup>他必<mark>照各人的行為</mark>報應各人。<sup>7</sup>凡恆心行善、尋求榮耀、尊貴和不能朽壞之福的，就以永生報應他們；<sup>8</sup>惟有結黨、不順從真理、反順從不義的，就以忿怒、惱恨報應他們；<sup>9</sup>將患難、困苦加給一切作惡的人，<mark>先是猶太人，後是希臘人</mark>，<sup>10</sup>卻將榮耀、尊貴、平安加給一切行善的人，<mark>先是猶太人，後是希臘人</mark>。<sup>11</sup>因為<mark>神不偏待人</mark>。<cite>羅馬書 2:6–11</cite></p>
+      </div>
+      <div class="stack ctr" style="--g:16px">
+        <p class="mg">沒有「你」了。<br>全是「各人」「一切……的人」。</p>
+        <div class="box"><p class="tiny"><b style="color:var(--ink)">2:6 引自舊約：</b>詩篇 62:12（七十士譯本 61:13）、箴言 24:12</p></div>
+        <p class="mg r">同一句副歌，出現兩次。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 21 chiasm -->
+<section class="slide" data-title="二 交叉對稱的結構">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">文學結構</span></header>
+    <h2 class="ttl">六節經文，一個嚴絲合縫的交叉結構<small>A – B – B′ – A′，前後由兩條公理夾住｜耶利米亞（Joachim Jeremias），1958</small></h2>
+    <div class="chi grow">
+      <div class="chi-r ax"><span class="l">2:6</span><span class="w">神必照各人的行為（<i class="en">erga</i>）報應各人</span></div>
+      <div class="chi-r" style="margin-left:36px"><span class="l">A</span><span class="act"><b>2:7</b>　恆心行善、尋求榮耀尊貴和不朽的</span><span class="res">永生</span></div>
+      <div class="chi-r" style="margin-left:72px"><span class="l">B</span><span class="act"><b>2:8</b>　出於私心、不順從真理、順從不義的</span><span class="res bad">忿怒、惱恨</span></div>
+      <div class="chi-r" style="margin-left:72px"><span class="l">B′</span><span class="res bad">患難、困苦</span><span class="act"><b>2:9</b>　一切作惡的人，<u>先是猶太人，後是希臘人</u></span></div>
+      <div class="chi-r" style="margin-left:36px"><span class="l">A′</span><span class="res">榮耀、尊貴、平安</span><span class="act"><b>2:10</b>　一切行善的人，<u>先是猶太人，後是希臘人</u></span></div>
+      <div class="chi-r ax"><span class="l">2:11</span><span class="w">因為神不偏待人（<i class="en">ou gar estin prosōpolēmpsia para tō theō</i>）</span></div>
+    </div>
+    <p class="mg" style="align-self:center">主題對稱：善賞 — 惡罰 — 惡罰 — 善賞。連語序都是鏡像，下一頁細看。</p>
+  </div>
+</section>
+
+<!-- 22 mirror -->
+<section class="slide" data-title="二 語序的鏡像與副歌">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">語序</span></header>
+    <h2 class="ttl">連語序都是一面鏡子</h2>
+    <div class="cols grow" style="--c:1fr 1fr;--g:26px">
+      <div class="stack" style="--g:10px">
+        <p class="kick">2:7–8　行為在前，結果在後</p>
+        <div class="shift"><div class="from">恆心行善、尋求榮耀……的<small>kath' hypomonēn ergou agathou</small></div><span class="arw">→</span><div class="to">永生<small>zōēn aiōnion</small></div></div>
+        <div class="shift"><div class="from">出於私心、不順從真理的<small>ex eritheias</small></div><span class="arw">→</span><div class="to" style="color:var(--red)">忿怒、惱恨<small>orgē kai thymos</small></div></div>
+      </div>
+      <div class="stack" style="--g:10px">
+        <p class="kick">2:9–10　結果在前，行為在後</p>
+        <div class="shift"><div class="to" style="color:var(--red)">患難、困苦<small>thlipsis kai stenochōria</small></div><span class="arw">←</span><div class="from">一切作惡的人<small>tou katergazomenou to kakon</small></div></div>
+        <div class="shift"><div class="to">榮耀、尊貴、平安<small>doxa de kai timē kai eirēnē</small></div><span class="arw">←</span><div class="from">一切行善的人<small>tō ergazomenō to agathon</small></div></div>
+      </div>
+    </div>
+    <div class="box" style="border:2px solid var(--ink);text-align:center;padding:14px 20px">
+      <p class="kick">句尾的副歌，連敲兩次（2:9、2:10）</p>
+      <p class="big-q" style="font-size:36px">先是猶太人，後是希臘人</p>
+      <p class="en" style="font-size:20px;color:var(--mute)">Ioudaiou te prōton kai Hellēnos</p>
+    </div>
+  </div>
+</section>
+
+<!-- 22 breakthrough 1 -->
+<section class="slide" data-title="二 突破一：特權就是責任">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">神學突破 1</span></header>
+    <h2 class="ttl">「先是猶太人」：不只是先得救恩</h2>
+    <div class="cols grow" style="--c:1fr 1.3fr;--g:30px">
+      <div class="stack ctr" style="--g:14px">
+        <p class="vs sm"><sup>16</sup>這福音本是神的大能，要救一切相信的，<mark>先是猶太人，後是希臘人</mark>。<cite>羅馬書 1:16</cite></p>
+        <p class="mg">聽到這裡，猶太聽眾很高興：<br>救恩歷史的優先權，確實屬於亞伯拉罕的後裔。</p>
+      </div>
+      <div class="stack ctr" style="--g:14px">
+        <div class="g2" style="gap:14px">
+          <div class="nc lg" style="background:var(--note)"><h3 style="font-size:22px">2:10　榮耀、尊貴、平安</h3><p><b>先是猶太人</b>，後是希臘人</p></div>
+          <div class="nc lg hot"><h3 style="font-size:22px">2:9　患難、困苦</h3><p><b class="red">先是猶太人</b>，後是希臘人</p></div>
+        </div>
+        <div class="shift"><div class="to">領受啟示與盟約的優先權<small>privilege</small></div><span class="arw">＝</span><div class="to" style="color:var(--red)">接受審判的優先責任<small>accountability</small></div></div>
+      </div>
+    </div>
+    <p class="foot">神降患難給一切作惡的人時，排第一位受審的不是外邦人，是<span class="r">「先是猶太人」</span>。</p>
+  </div>
+</section>
+
+<!-- 23 breakthrough 2 -->
+<section class="slide" data-title="二 突破二：神不偏待人">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">神學突破 2</span></header>
+    <div class="cols grow" style="--c:1fr 1.15fr;--g:34px">
+      <div class="stack ctr" style="--g:16px">
+        <p class="kick">2:11｜整段 2:1–16 的最高點</p>
+        <p class="big-q">因為神<span class="r">不偏待人</span>。</p>
+        <div class="box"><p class="gk" style="font-size:28px">προσωπολημψία</p><p class="tiny">prosōpolēmpsia｜偏待人、看外貌取人。字面是「抬起某人的臉」，來自舊約的說法</p></div>
+        <p class="tiny">申命記 10:17、歷代志下 19:7：耶和華不以貌取人，也不受賄賂。</p>
+      </div>
+      <div class="stack ctr" style="--g:14px">
+        <div class="box"><h3>原本的用法</h3><p class="small">「神是公義的，不會被外邦君王的權勢收買，祂必替受欺壓的以色列伸冤。」</p></div>
+        <p class="vsx">↓ 保羅把它掉轉過來</p>
+        <div class="box" style="border-color:var(--red);border-width:2.5px"><h3>保羅的用法</h3><p class="small">既然神不看外貌、不收賄賂，那麼在末日的法庭上，這些都不構成神偏袒你的理由：</p><p style="margin-top:6px"><span class="chip">血統</span><span class="chip">亞伯拉罕的家譜</span><span class="chip">宗教頭銜</span><span class="chip">聖殿裡的奉獻</span></p></div>
+        <p class="mg r">神看的是真實的生命方向與行為。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 24 tension -->
+<section class="slide" data-title="二 張力：按行為報應 vs. 因信稱義">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">系統神學的問題</span></header>
+    <h2 class="ttl">這和「因信稱義」矛盾嗎？</h2>
+    <div class="cols grow" style="--c:1fr auto 1fr;--g:22px;align-items:center">
+      <div class="stack" style="--g:14px">
+        <p class="vs" style="font-size:25px"><sup>7</sup>凡恆心行善……的，就以永生報應他們<cite>羅馬書 2:7</cite></p>
+        <p class="vs" style="font-size:25px"><sup>13</sup>不是聽律法的為義，乃是<mark>行律法的稱義</mark><cite>羅馬書 2:13</cite></p>
+      </div>
+      <p class="vsx" style="font-size:44px">vs.</p>
+      <div class="stack" style="--g:14px">
+        <p class="vs" style="font-size:25px"><sup>28</sup>人稱義是<mark>因著信</mark>，不在乎遵行律法<cite>羅馬書 3:28</cite></p>
+        <p class="vs" style="font-size:25px"><sup>20</sup>凡有血氣的，沒有一個因行律法能在神面前稱義<cite>羅馬書 3:20</cite></p>
+      </div>
+    </div>
+    <div class="sticky" style="align-self:center;max-width:820px">幾個世紀以來，註釋書在這裡爭論不休。接下來從三個角度看，保羅的思想其實是一致的。</div>
+  </div>
+</section>
+
+<!-- 25 three dimensions -->
+<section class="slide" data-title="二 三個角度解開張力">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">三個角度</span></header>
+    <h2 class="ttl">三個角度，解開張力</h2>
+    <div class="rvbox grow">
+      <div class="g3" style="flex:1;grid-auto-rows:1fr">
+        <div class="nc rv" data-h="角度一"><div class="rv-c stack" style="--g:8px"><span class="no">1</span><h3 style="font-size:25px">根基 vs. 證據</h3><p style="font-size:21px"><b>3:21–4:25</b> 問的是：人怎麼在神面前被算為義？完全本乎恩、因著信。</p><p style="font-size:21px"><b>2:6–16</b>（還有林後 5:10、羅 14:10–12）問的是：末日審判憑什麼顯為公義？神檢視的證據是一生的「行為」：生命有沒有結出與悔改、信心相稱的果子。</p></div></div>
+        <div class="nc rv" data-h="角度二"><div class="rv-c stack" style="--g:8px"><span class="no">2</span><h3 style="font-size:25px">「行善」是生命的方向</h3><p style="font-size:21px">2:7 說的不是賺功德的交易，是「恆心」「尋求」神的榮耀：以神為中心的生命定向。</p><p style="font-size:21px">2:8 相反：出於私心、不順從真理。</p></div></div>
+        <div class="nc rv hot" data-h="角度三"><div class="rv-c stack" style="--g:8px"><span class="no">3</span><h3 style="font-size:25px">論證的階梯</h3><p style="font-size:21px">在 1:18–3:20 的大論證裡，第二章先立下公平的規則；第三章才宣布調查的結果：沒有義人，連一個也沒有。</p><p style="font-size:21px">所以出路只剩 3:21 的恩典。</p></div></div>
+      </div>
+      <div class="rv-ctl"><button class="btn pri rv-next">下一個角度</button><button class="btn rv-all">全部打開</button><span class="mg" style="font-size:17px">接下來一個一個看。</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 27 basis vs evidence -->
+<section class="slide" data-title="二 角度一：根基與證據">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">角度一</span></header>
+    <h2 class="ttl">兩段經文，回答的是兩個不同的問題</h2>
+    <div class="g2 grow" style="align-items:stretch">
+      <div class="nc lg">
+        <p class="kick">3:21–4:25　稱義的根基</p>
+        <h3>人怎麼在神面前被算為義？</h3>
+        <p>百分之百本乎恩、因著信，與行為無關。</p>
+        <p class="vs sm"><sup>23</sup>因為世人都犯了罪，虧缺了神的榮耀<cite>羅馬書 3:23（參 3:20）</cite></p>
+        <p>沒有一個人能靠律法的行為，達到神榮耀的標準。</p>
+      </div>
+      <div class="nc lg hot">
+        <p class="kick">2:6–16　終末審判的證據</p>
+        <h3>末日的宣判，憑什麼顯為公義、不偏待人？</h3>
+        <p>神檢視的客觀證據，是一個人一生的「行為」（<span class="en">erga</span>）：</p>
+        <p><b>生命有沒有結出與悔改、信心相稱的果子。</b></p>
+        <p class="tiny">參 林後 5:10、羅 14:10–12</p>
+      </div>
+    </div>
+    <p class="foot">稱義的<span class="r">根基</span>在基督；審判的<span class="r">證據</span>在生命。</p>
+  </div>
+</section>
+
+<!-- A1 heart transplant -->
+<section class="slide" data-title="二 比喻一：換心手術與術後體檢">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">角度一｜比喻</span></header>
+    <h2 class="ttl">換心手術，和五年後的體檢<small>貼著 2:15「刻在心裡」、2:29「心裡的割禮」</small></h2>
+    <div class="g2 grow" style="align-items:stretch">
+      <div class="nc lg">
+        <p class="kick">救贖的根基｜羅 3:21–28</p>
+        <h3>免費的心臟移植手術</h3>
+        <p>心臟衰竭、瀕臨死亡的病人，不可能靠跑馬拉松救活自己。唯一的路，是承認自己無能，白白接受醫師的換心手術。</p>
+        <p><b>得救的根基，百分之百是醫師的恩典和手術之功。</b></p>
+      </div>
+      <div class="nc lg hot">
+        <p class="kick">終末的證據｜羅 2:6–16</p>
+        <h3>五年後的全面體檢</h3>
+        <p>醫師看心電圖、看跑步機上的數據：「心跳強健、能持續運動的，才算通過體檢。」</p>
+        <p><b>能跑能跳，不是用來「賺取」手術的資格，是用來「證明」那顆新心真的活在他裡面。</b></p>
+      </div>
+    </div>
+    <p class="foot">自稱換過心，卻沒有心跳？<span class="r">體檢報告會揭穿：他根本沒有領受那顆新心。</span></p>
+  </div>
+</section>
+
+<!-- A2 grafting -->
+<section class="slide" data-title="二 比喻二：嫁接與收成">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">角度一｜比喻</span></header>
+    <h2 class="ttl">嫁接的枝子，和秋天的收成<small>羅馬書 11:17–24 的橄欖樹</small></h2>
+    <div class="g2 grow" style="align-items:stretch">
+      <div class="nc lg">
+        <p class="kick">救贖的根基｜身分的轉移</p>
+        <h3>園丁把野橄欖枝接上好樹</h3>
+        <p>枝子不需要先結果子，才能被嫁接。嫁接完全是園丁白白的作為：因信連於基督。</p>
+      </div>
+      <div class="nc lg hot">
+        <p class="kick">終末的證據｜真實性的查驗</p>
+        <h3>收成的日子，園丁看果子</h3>
+        <p>哪一枝是真正活在樹上的？標準只有一個：有沒有結出好果子。</p>
+      </div>
+    </div>
+    <p class="foot">果子不是嫁接的<span class="r">原因</span>，卻是嫁接成功的<span class="r">必然結果與證據</span>。</p>
+  </div>
+</section>
+
+<!-- A3 Wright two verdicts -->
+<section class="slide" data-title="二 賴特：兩個判決，兩個時間點">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">角度一｜賴特</span></header>
+    <h2 class="ttl">同一個法庭，兩個時間點</h2>
+    <div class="cols grow" style="--c:1fr 64px 1fr;--g:18px;align-items:stretch">
+      <div class="nc lg">
+        <p class="kick">現在的判決｜羅 3:21–31</p>
+        <h3>今生此刻，預先宣判</h3>
+        <p>一個人現在單單憑著信歸向基督，神就把原本屬於末日的「稱義」判決，提前宣判在他身上。</p>
+      </div>
+      <p class="vsx" style="font-size:20px;font-style:normal;font-family:var(--f-sans);font-weight:900;writing-mode:vertical-rl;letter-spacing:.2em">完全對應</p>
+      <div class="nc lg hot">
+        <p class="kick">未來的判決｜羅 2:1–16</p>
+        <h3>歷史終點，終審法庭</h3>
+        <p>2:13「<b>將要</b>被稱義」（<span class="en">dikaiōthēsontai</span>，未來被動式）；2:16「審判人隱祕事的<b>日子</b>」。神藉耶穌基督檢視人一生的全部生活。</p>
+      </div>
+    </div>
+    <div class="cols" style="--c:1.25fr 1fr;--g:24px;align-items:center">
+      <p class="aq" style="font-size:21px">末日藉著彌賽亞發出的未來判決，和現在單單因著信發出的判決，是完全對應的。<span class="by">賴特（N. T. Wright）</span></p>
+      <div class="box dash" style="padding:8px 16px"><p class="tiny"><b style="color:var(--red)">賴特不接受的讀法：</b>把 2:7、10、13 當成一張沒有人兌現得了的空頭支票（「海市蜃樓」）。他說這在釋經上相當絕望；保羅是認真地在宣告終末審判怎麼運作。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- A4 Spirit bridge -->
+<section class="slide" data-title="二 橋樑：聖靈">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">角度一｜賴特</span></header>
+    <h2 class="ttl">現在因信稱義的人，末日憑什麼通過審判？<small>賴特：「答案在於聖靈。」<span class="en">The answer has to do with the spirit.</span></small></h2>
+    <div class="cols grow" style="--c:1fr 1.1fr;--g:28px">
+      <div class="stack" style="--g:10px">
+        <p class="kick">一條貫穿羅馬書的線</p>
+        <div class="box" style="padding:10px 16px"><p class="small"><b>2:14–16</b>　律法的功用刻在他們心裡</p></div>
+        <div class="box" style="padding:10px 16px"><p class="small"><b>2:26–29</b>　真割禮也是心裡的，在乎靈，不在乎儀文</p></div>
+        <div class="box" style="padding:10px 16px;border-color:var(--red);border-width:2.5px"><p class="small"><b>8:1–4</b>　不定罪了；律法的義成就在隨從聖靈的人身上</p></div>
+        <p class="tiny">舊約的應許：耶利米書 31:33、以西結書 36:24–28（律法寫在心上、新心、新靈）</p>
+      </div>
+      <div class="stack ctr" style="--g:14px">
+        <p class="vs"><sup>1</sup>如今，那些在基督耶穌裡的就不定罪了。……<sup>4</sup>使律法的義成就在我們這不隨從肉體、<mark>只隨從聖靈</mark>的人身上。<cite>羅馬書 8:1、4</cite></p>
+        <p class="mg">8:1 回到審判的主題之後，保羅用了 26 節（8:2–27）講聖靈。</p>
+        <div class="box" style="border-color:var(--red);border-width:2.5px"><p class="small">通過末日審判的「行律法」，不是靠肉體的道德苦修；是因信領受福音之後，<b>聖靈在心版上動工所結的順服果子</b>。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- A5 erga nomou -->
+<section class="slide" data-title="二 兩種「行為」">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">角度一｜用字</span></header>
+    <h2 class="ttl">保羅否定的「行為」，和保羅肯定的「行為」<small>克魯斯、朗尼克的補充</small></h2>
+    <div class="g2 grow" style="align-items:stretch">
+      <div class="nc lg">
+        <p class="kick">3:20、28　保羅否定的</p>
+        <h3>「律法的行為」<span class="en" style="font-weight:500;font-size:22px">　erga nomou</span></h3>
+        <p>倚靠擁有摩西律法、割禮這些族裔的身分標記，來換取神的喜悅。</p>
+      </div>
+      <div class="nc lg hot">
+        <p class="kick">2:6–10、2:15　保羅肯定的</p>
+        <h3>「行為」「律法的功用」<span class="en" style="font-weight:500;font-size:22px">　erga｜to ergon tou nomou</span></h3>
+        <p>人經歷神的恩慈與拯救之後，生命由內而外活出來的真實回應。</p>
+      </div>
+    </div>
+    <p class="vs sm" style="align-self:center">因為我們眾人必要在基督臺前顯露出來，叫各人按著本身所行的，或善或惡受報。<cite>哥林多後書 5:10｜保羅對信徒說的話</cite></p>
+  </div>
+</section>
+
+<!-- 26 direction of life -->
+<section class="slide" data-title="二 角度二：兩種生命方向">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">2:7 對 2:8</span></header>
+    <h2 class="ttl">保羅怎麼定義「行善」和「作惡」？<small>不是兩張成績單，是兩種方向</small></h2>
+    <div class="g2 grow" style="align-items:stretch">
+      <div class="nc lg" style="background:var(--note)">
+        <p class="kick">2:7　得永生的人</p>
+        <h3><span class="ul">恆心</span>行善、<span class="ul">尋求</span>榮耀、尊貴和不能朽壞之福</h3>
+        <p class="en">kath' hypomonēn ergou agathou … zētousin</p>
+        <p>「尋求」（zētousin）不是一筆靠自己賺功德的交易，是一種<b>以神為中心、渴望神榮耀的生命定向</b>。</p>
+      </div>
+      <div class="nc lg hot">
+        <p class="kick">2:8　受忿怒的人</p>
+        <h3>出於<span class="ul">私心</span>（和合本：結黨）、不順從真理、反順從不義</h3>
+        <p class="en">ex eritheias（自私的野心）</p>
+        <p>呼應 1:21–25：人拒絕榮耀神，高舉自己。<b>以自我為中心的生命定向。</b></p>
+        <p class="tiny"><b style="color:var(--red)">和合本譯作「結黨」。</b>原文 eritheia 的意思是「自私自利的野心」。</p>
+      </div>
+    </div>
+    <p class="foot">問題不只是「做了多少」，是<span class="r">「朝著誰活」</span>。</p>
+  </div>
+</section>
+
+<!-- 27 ladder -->
+<section class="slide" data-title="二 角度三：論證的階梯">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">二｜終末法庭的最高憲章</span><span class="src">1:18–3:26 的大論證</span></header>
+    <h2 class="ttl">先立規則，再宣布結果，最後才是出路</h2>
+    <div class="tline grow" style="--n:4;align-content:center">
+      <div class="ev"><p class="yr" style="font-size:28px">1:18–32</p><p><b>外邦人</b>無可推諉。</p></div>
+      <div class="ev"><p class="yr" style="font-size:28px">2:1–16</p><p><b>比賽規則：</b>行善的得永生，作惡的受刑罰，神不偏待人。論斷的人也無可推諉。</p></div>
+      <div class="ev bad"><p class="yr" style="font-size:28px">3:9–20</p><p><b>調查結果：</b>全軍覆沒。</p><p class="vs sm" style="font-size:17px">沒有義人，連一個也沒有。……沒有行善的，連一個也沒有。<cite>3:10、12</cite></p></div>
+      <div class="ev"><p class="yr" style="font-size:28px;color:var(--red)">3:21–26</p><p><b class="red">唯一的出路：</b>十字架上白白的恩典。</p><p class="vs sm" style="font-size:17px">但如今，神的義在律法以外已經顯明出來。<cite>3:21</cite></p></div>
+    </div>
+    <p class="foot">標準越公義，全人類越沒有話說；<span class="r">恩典也就越顯為恩典</span>。</p>
+  </div>
+</section>
+
+<!-- 28 chap 3 -->
+<section class="slide chap" data-title="三 扉頁：從石版到人心隱祕處" id="s3">
+  <div class="page">
+    <p class="chap-n">參</p>
+    <div class="chap-b">
+      <p class="kick">羅馬書 2:12–16 ⦁ 第三幕</p>
+      <h2 class="chap-t">從石版到人心隱祕處</h2>
+      <p class="chap-s">「聽道特權」的破產，「行道實際」的見證</p>
+      <ul class="chap-k"><li class="h">這一段會看到</li><li>最強的抗辯：「可是我們有律法！」</li><li>聽律法的 vs. 行律法的</li><li>2:14–16 的三個句法關鍵，直到基督的寶座</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- 29 text 2:12-16 -->
+<section class="slide" data-title="三 經文：羅馬書 2:12–16">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">新標點和合本</span></header>
+    <div class="cols grow" style="--c:1.8fr 1fr;--g:26px">
+      <div class="vsg">
+        <p class="vs" style="font-size:24px"><sup>12</sup>凡沒有律法犯了罪的，也必不按律法滅亡；凡在律法以下犯了罪的，也必按律法受審判。<sup>13</sup>（原來在神面前，不是<mark>聽律法的</mark>為義，乃是<mark>行律法的</mark>稱義。<sup>14</sup>沒有律法的外邦人若<mark>順著本性</mark>行律法上的事，他們雖然沒有律法，自己就是自己的律法。<sup>15</sup>這是顯出律法的功用<mark>刻在他們心裡</mark>，他們是非之心同作見證，並且他們的思念互相較量，或以為是，或以為非。）<sup>16</sup>就在神藉<mark>耶穌基督</mark>審判人<mark>隱祕事</mark>的日子，照著我的福音所言。<cite>羅馬書 2:12–16</cite></p>
+      </div>
+      <div class="stack ctr" style="--g:16px">
+        <p class="mg">常被稱為新約最難解的經文之一。</p>
+        <div class="sticky p" style="font-size:18px"><span class="h">對話者的抗辯</span>「我們有西奈山的律法，外邦人沒有。這不是絕對的優勢嗎？」</div>
+        <p class="mg r">留意括號：13–15 節。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 30 gar chain -->
+<section class="slide" data-title="三 四個「因為」">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">句法</span></header>
+    <h2 class="ttl">四個「因為」，像四根鋼筋層層往下打<small><span class="gk">γάρ</span>（gar）｜2:11、12、13、14</small></h2>
+    <div class="rvbox grow" style="justify-content:center">
+      <div class="nc rv" data-h="2:11" style="margin-right:108px"><div class="rv-c"><h3 style="font-size:25px;font-family:var(--f-serif)"><span class="red">因為</span>　神不偏待人。<span class="tiny">　2:11</span></h3></div></div>
+      <div class="nc rv" data-h="2:12" style="margin-left:36px;margin-right:72px"><div class="rv-c"><h3 style="font-size:25px;font-family:var(--f-serif)"><span class="red">因為</span>　沒有律法犯罪的，不按律法滅亡；在律法以下犯罪的，按律法受審判。<span class="tiny">　2:12</span></h3></div></div>
+      <div class="nc rv" data-h="2:13" style="margin-left:72px;margin-right:36px"><div class="rv-c"><h3 style="font-size:25px;font-family:var(--f-serif)"><span class="red">因為</span>　在神面前，不是聽律法的為義，乃是行律法的稱義。<span class="tiny">　2:13</span></h3></div></div>
+      <div class="nc rv" data-h="2:14" style="margin-left:108px"><div class="rv-c"><h3 style="font-size:25px;font-family:var(--f-serif)"><span class="red">因為</span>　沒有律法的外邦人，若行律法上的事……<span class="tiny">　2:14</span></h3></div></div>
+      <div class="rv-ctl"><button class="btn pri rv-next">下一根</button><button class="btn rv-all">全部打開</button><span class="mg" style="font-size:17px">和合本沒有把每個 gar 都譯出來（2:13 譯作「原來」）。</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 31 2:12 -->
+<section class="slide" data-title="三 2:12：護身符還是起訴書">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">2:12 的用字</span></header>
+    <h2 class="ttl">律法不是護身符，是起訴書</h2>
+    <div class="g2 grow" style="align-items:stretch">
+      <div class="nc lg">
+        <p class="kick">沒有律法的（外邦人）</p>
+        <h3><span class="en" style="font-style:normal">anomōs</span>　沒有律法而犯罪</h3>
+        <p>不按律法<b class="red">滅亡</b>（<span class="en">apolountai</span>）</p>
+        <p>神不會拿「摩西律法的卷宗」，去定一個從沒聽過摩西律法的人的罪。神是公平的。</p>
+      </div>
+      <div class="nc lg hot">
+        <p class="kick">在律法以下的（猶太人）</p>
+        <h3><span class="en" style="font-style:normal">en nomō</span>　在律法之內犯罪</h3>
+        <p>按律法<b class="red">受審判</b>（<span class="en">krithēsontai</span>）</p>
+        <p>手上這本律法，不會替你說話；它會站到控方那一邊。</p>
+      </div>
+    </div>
+    <p class="foot">兩邊的動詞不同，結局相同：<span class="r">犯了罪的，都站不住</span>。</p>
+  </div>
+</section>
+
+<!-- 32 hearers vs doers -->
+<section class="slide" data-title="三 聽律法的 vs. 行律法的">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">2:13</span></header>
+    <h2 class="ttl">會堂裡的「聽道迷思」</h2>
+    <div class="cols grow" style="--c:1.1fr 1fr;--g:32px">
+      <div class="stack" style="--g:14px">
+        <div class="shift" style="padding:16px 20px">
+          <div class="from" style="font-size:22px"><span class="strike">聽律法的</span><small>hoi akroatai nomou</small></div>
+          <span class="arw">→</span>
+          <div class="to" style="font-size:26px;color:var(--red)">行律法的<small>hoi poiētai nomou</small></div>
+        </div>
+        <div class="box"><h3>第一世紀的會堂</h3><p class="small">一般人家裡沒有自己的聖經抄本。每個安息日到會堂，「聽」人誦讀、講解摩西五經。</p></div>
+        <div class="sticky p" style="font-size:19px"><span class="h">久而久之的錯覺</span>我每個安息日準時出席、坐下來聽、認同律法是神聖的，我就已經是神面前的義人了。</div>
+      </div>
+      <div class="stack ctr" style="--g:18px">
+        <p class="big-q" style="font-size:34px">「在<span class="r">神面前</span>」<br><span class="en" style="font-size:24px;font-weight:500">para tō theō</span></p>
+        <p class="small">不是在會堂長老面前，不是在神學院教授面前。聽見律法本身，不產生任何稱義的效力。</p>
+        <p class="vs sm">只是你們要行道，不要單單聽道，自己欺哄自己。<cite>雅各書 1:22</cite></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 33 physei -->
+<section class="slide" data-title="三 關鍵一：「本性」修飾哪一邊">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">句法關鍵 1</span></header>
+    <h2 class="ttl">關鍵一：<span class="gk">φύσει</span>（physei，「本性」）往前連，還是往後連？</h2>
+    <div class="box" style="text-align:center;padding:12px 20px"><p class="en" style="font-size:25px;font-style:normal">hotan gar ethnē <u>ta mē nomon echonta</u> <b class="red" style="border:2px solid var(--red);padding:0 8px">physei</b> <u>ta tou nomou poiōsin</u></p><p class="tiny">外邦人　沒有律法的　｜本性｜　行律法上的事　　（古代抄本沒有標點）</p></div>
+    <div class="g2 grow" style="align-items:stretch">
+      <div class="nc lg"><p class="kick">往後連（和合本、ESV）</p><h3 style="font-size:23px;white-space:nowrap">「若<span class="ul">順著本性</span>行律法上的事」</h3><p>帶出「自然法」的向度：神在創造時，已經把基本的道德秩序放在人的本性裡。</p></div>
+      <div class="nc lg"><p class="kick">往前連（克蘭菲爾德、賴特、巴克萊等）</p><h3 style="font-size:23px;white-space:nowrap">「那些<span class="ul">生來</span>沒有律法的外邦人，行出律法的事」</h3><p>依據保羅自己的用法：加 2:15「我們這<b>生來</b>的猶太人」、羅 2:27「那<b>本來</b>未受割禮的」。</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 34 two views -->
+<section class="slide" data-title="三 關鍵二：刻在心裡的是誰">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">句法關鍵 2</span></header>
+    <h2 class="ttl">關鍵二：「律法的功用刻在他們心裡」，「他們」是誰？<small><span class="en">to ergon tou nomou</span>（單數）｜律法所要求的實質</small></h2>
+    <p class="small">生來沒有律法的外邦人，行出律法所要求的事（例如孝敬父母、誠實公義、憐憫孤寡）：「他們雖然沒有律法，自己就是自己的律法。」</p>
+    <div class="g2 grow" style="align-items:stretch;gap:16px">
+      <div class="nc" style="gap:8px"><p class="kick">視角一：創造與良知</p><h3 style="font-size:26px">一般未信主的外邦人</h3><p style="font-size:20px;line-height:1.6">造物主沒有把西奈山的石版給外邦人，卻把律法的道德實質刻在人的心版上。所以他們偶爾會行出合乎律法的善；也所以，末日時他們不能說「我沒讀過摩西五經」。</p><p class="tiny">馬特拉、施賴納、朗尼克、賽弗里德</p></div>
+      <div class="nc" style="gap:8px"><p class="kick">視角二：新約與聖靈的更新</p><h3 style="font-size:26px">已經信主的外邦基督徒</h3><p style="font-size:20px;line-height:1.6">1:21 才說外邦人「無知的心就昏暗了」，墮落的人怎能自己把律法寫在心上？「刻在心裡」呼應新約的應許：「我要將我的律法放在他們裡面，寫在他們心上」（耶 31:33）；也對得上 2:26–29、8:4。</p><p class="tiny">克蘭菲爾德、賴特、巴克萊、伯德</p></div>
+    </div>
+    <div class="box" style="border-color:var(--red);border-width:2.5px;padding:10px 20px"><p class="small"><b>兩種讀法，同一個目的：</b>連生來沒有律法的外邦人，都能在心版上顯出律法的功用。那麼每週聽律法、背律法、教律法的人，只聽不行，豈不更羞愧？</p></div>
+  </div>
+</section>
+
+<!-- 35 inner court -->
+<section class="slide" data-title="三 關鍵三：內心的微型法庭">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">句法關鍵 3</span></header>
+    <h2 class="ttl">關鍵三：每個人心裡，每天都在開庭<small>2:15 下｜兩個獨立所有格結構</small></h2>
+    <div class="g3 grow" style="align-items:stretch">
+      <div class="nc lg"><p class="kick">證人</p><h3>良心</h3><p class="en" style="font-style:normal">syneidēsis</p><p>「同作見證」（<span class="en">symmartyreō</span>）：字首 syn- 是「一同」。良心和刻在心上的律法功用，聯手出庭。</p></div>
+      <div class="nc lg hot"><p class="kick">檢察官</p><h3>思念：控告</h3><p class="en" style="font-style:normal">logismoi … katēgorountōn</p><p>和合本「或以為非」：嚴厲地指出自己做錯了。</p></div>
+      <div class="nc lg"><p class="kick">辯護律師</p><h3>思念：辯護</h3><p class="en" style="font-style:normal">ē kai apologoumenōn</p><p>和合本「或以為是」：<span class="en">ē kai</span>，「或者甚至」勉強替自己開脫。</p></div>
+    </div>
+    <div class="box dash" style="padding:8px 18px"><p class="small"><b class="red">原文的次序：先「控告」，後「或者甚至辯護」。</b>和合本譯作「或以為是，或以為非」，次序倒過來，也沒有譯出「甚至」。</p></div>
+    <p class="mg" style="align-self:center;font-size:22px">「或者甚至」的語氣：在人心的自我審判裡，控告是常態，辯護只是偶爾的掙扎。</p>
+  </div>
+</section>
+
+<!-- 36 Christ's throne -->
+<section class="slide" data-title="三 從內心的法庭到基督的寶座">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">2:16</span></header>
+    <h2 class="ttl">內心的法庭，直通基督的寶座</h2>
+    <div class="cols grow" style="--c:1fr 1.15fr;--g:30px">
+      <div class="stack" style="--g:12px">
+        <p class="kick">2:16 接在哪裡？</p>
+        <div class="box"><h3>NIV</h3><p class="small">14–15 節加圓括號；16 節開頭補上「這要發生在……的日子」，接回 2:13。</p></div>
+        <div class="box"><h3>ESV 與希臘文原文</h3><p class="small">不切斷：2:15 下的內心法庭，一路衝向 2:16 的終末寶座。</p></div>
+        <p class="mg">今天心裡的控告與辯護，是那一天的預演。</p>
+      </div>
+      <div class="stack ctr" style="--g:16px">
+        <p class="vs" style="font-size:28px"><sup>16</sup>就在神藉<mark>耶穌基督</mark>審判人隱祕事的日子，照著<mark>我的福音</mark>所言。<cite>羅馬書 2:16</cite></p>
+        <div class="box" style="border-color:var(--red);border-width:2.5px"><p class="small"><b>帷幕拉開：</b>從 1:18 開始的漫長控訴裡，「耶穌基督」的名字在這裡第一次出現。坐在審判寶座上的，正是祂。</p></div>
+        <p class="mg r">審判也是「福音」的一部分。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 37 secrets -->
+<section class="slide" data-title="三 祂審判的是隱祕事">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">三｜從石版到人心隱祕處</span><span class="src">2:16</span></header>
+    <div class="cols grow" style="--c:1fr 1fr;--g:40px;align-items:center">
+      <div class="stack" style="--g:16px">
+        <p class="kick">祂審判的不是</p>
+        <ul class="stack lead" style="--g:10px;font-weight:700">
+          <li><span class="strike">講台上光鮮亮麗的履歷表</span></li>
+          <li><span class="strike">長執會上滴水不漏的發言稿</span></li>
+          <li><span class="strike">只有外面看得到的善行與奉獻</span></li>
+        </ul>
+      </div>
+      <div class="stack" style="--g:16px">
+        <p class="kick">祂審判的是</p>
+        <p class="gk" style="font-size:36px;line-height:1.3">τὰ κρυπτὰ τῶν ἀνθρώπων</p>
+        <p class="en" style="font-size:22px">ta krypta tōn anthrōpōn</p>
+        <p class="big-q" style="font-size:40px">人的<span class="r">隱祕事</span></p>
+        <p><span class="chip">最深層的動機</span><span class="chip">不為人知的念頭</span><span class="chip">連自己都想掩飾的光景</span></p>
+      </div>
+    </div>
+    <p class="foot">第一幕的審判官，最後站在這裡：<span class="r">他審判別人外面的事，神審判他裡面的事</span>。</p>
+  </div>
+</section>
+
+<!-- 38 three calls -->
+<section class="slide" data-title="回應：三個牧養呼召" id="act">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">回應</span><span class="src">給教會的同工</span></header>
+    <h2 class="ttl">放下審判槌：三個呼召</h2>
+    <div class="g3 grow" style="align-items:stretch">
+      <div class="nc lg"><span class="no">1</span><h3>警惕事奉者的職業病</h3><p>不要用批評論斷別人，來代替自我省察。</p><p class="tiny">2:1–5</p></div>
+      <div class="nc lg"><span class="no">2</span><h3>破除聽道與教導的特權迷思</h3><p>不要把神學知識，當作免死金牌。</p><p class="tiny">2:12–16</p></div>
+      <div class="nc lg hot"><span class="no">3</span><h3>不要藐視神今日的寬容</h3><p>讓祂豐富的恩慈，領我們進入真實的悔改。</p><p class="tiny">2:4–5</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 39 call 1 -->
+<section class="slide" data-title="呼召一：事奉者的職業病">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">回應｜呼召一</span><span class="src">2:1–5</span></header>
+    <h2 class="ttl">呼召一：警惕「事奉者的職業病」</h2>
+    <div class="cols grow" style="--c:1fr 1.1fr;--g:30px">
+      <div class="stack" style="--g:14px">
+        <p class="vs sm">你在甚麼事上論斷人，就在甚麼事上定自己的罪。<cite>羅馬書 2:1</cite></p>
+        <div class="shift"><div class="from">習慣扮演<br><b>醫生、法官</b></div><span class="arw">⇄</span><div class="to">自己首先是<br><b class="red">重症病房的病人、蒙恩的罪人</b></div></div>
+        <p class="aq" style="font-size:22px">把羅馬書 14–15 章倒推回第 2 章：保羅筆下那位審判官，很像羅馬教會裡自認最敬虔、最懂律法的信徒，坐在教會裡論斷看法不同的弟兄姊妹。<span class="by">麥克奈特（Scot McKnight），《倒著讀羅馬書》｜大意</span></p>
+      </div>
+      <div class="stack" style="--g:12px">
+        <p class="kick"><span class="gk">κρίνω</span>（krinō，論斷）在羅馬書的分布</p>
+        <div class="g2" style="gap:12px">
+          <div class="nc hot"><h3>第 2–3 章</h3><p>2:1、3、12、16、27；3:4、6、7</p></div>
+          <div class="nc hot"><h3>第 14 章</h3><p>14:3、4、5、10、13、22</p></div>
+        </div>
+        <div class="box" style="padding:10px 16px"><p class="small">第 14 章論斷的是<b>飲食、守日</b>：非關福音核心的次要意見（<span class="en">adiaphora</span>）。在這些事上扮演法官，是拆毀基督身體的合一。</p></div>
+        <div class="sticky" style="font-size:19px"><span class="h">下次想舉起手指的時候</span>先讓聖靈的光照進我自己心裡：同樣藏著的驕傲、苦毒、貪婪與爭競。</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 40 call 2 -->
+<section class="slide" data-title="呼召二：特權迷思">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">回應｜呼召二</span><span class="src">2:12–16</span></header>
+    <h2 class="ttl">呼召二：破除「聽道與教導的特權迷思」</h2>
+    <div class="cols grow" style="--c:1fr 1fr;--g:30px">
+      <div class="stack" style="--g:12px">
+        <p class="vs sm">在神面前，不是聽律法的為義，乃是行律法的稱義。<cite>羅馬書 2:13</cite></p>
+        <div class="box"><h3>我們很會的事</h3><ul class="dot small"><li>背得出加爾文或阿民念的神學體系</li><li>分析希臘文的分詞和獨立所有格</li><li>在主日學把救恩論講得頭頭是道</li></ul></div>
+        <p class="mg">有聖經知識 ≠ 活出基督的生命<br>在講台上教導 ≠ 在暗室中順服</p>
+      </div>
+      <div class="stack" style="--g:12px">
+        <p class="kick">那一天，神不考筆試。祂要看的是：</p>
+        <p class="small">所讀、所聽、所教的道，有沒有穿過頭腦，<b>刻進心版</b>（<span class="en">grapton en tais kardiais</span>），變成……</p>
+        <div class="g2" style="gap:10px">
+          <div class="nc"><h3>對配偶的溫柔</h3></div>
+          <div class="nc"><h3>對仇敵的饒恕</h3></div>
+          <div class="nc"><h3>對金錢的清廉</h3></div>
+          <div class="nc"><h3>對軟弱肢體的憐憫</h3></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 41 call 3 -->
+<section class="slide" data-title="呼召三：恩慈領你悔改">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">回應｜呼召三</span><span class="src">2:4</span></header>
+    <h2 class="ttl">呼召三：不要藐視神今日的寬容</h2>
+    <div class="cols grow" style="--c:1.1fr 1fr;--g:34px;align-items:center">
+      <div class="stack" style="--g:18px">
+        <div class="vsg" style="padding:22px 28px"><p class="vs" style="font-size:28px"><sup>4</sup>還是你藐視他豐富的恩慈、寬容、忍耐，不曉得他的恩慈是<mark>領你悔改</mark>呢？<cite>羅馬書 2:4</cite></p></div>
+        <p class="small">為什麼神今天容許我們還坐在這裡、還站在事奉的崗位上，沒有因為我們生命裡隱藏的軟弱與虛偽，立刻把我們撤職或擊殺？</p>
+      </div>
+      <div class="stack" style="--g:14px">
+        <div class="box"><p class="small"><span class="strike">因為神看不見</span></p></div>
+        <div class="box"><p class="small"><span class="strike">因為神偏待教會的領袖</span></p></div>
+        <div class="box" style="border-color:var(--red);border-width:2.5px;background:var(--note)"><p class="lead" style="font-size:24px">因為神正在向我們傾倒祂豐富的恩慈、寬容、忍耐，<span class="red">為要領我們悔改</span>。</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 42 toward 3:21 -->
+<section class="slide" data-title="轉向：預備好聽 3:21–26">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">回應</span><span class="src">福音的轉折</span></header>
+    <h2 class="ttl">承認「無可推諉」的人，預備好聽福音了</h2>
+    <div class="cols grow" style="--c:1fr auto 1fr;--g:24px;align-items:center">
+      <div class="stack" style="--g:14px">
+        <p class="kick">2:1 的我們</p>
+        <p class="big-q" style="font-size:36px">無可推諉</p>
+        <p class="en" style="font-size:22px">anapologētos</p>
+        <p class="small">在不偏待人的神面前，和世人一樣站不住。</p>
+      </div>
+      <p class="vsx" style="font-size:54px">→</p>
+      <div class="stack" style="--g:14px">
+        <p class="kick">3:21–26 的福音</p>
+        <p class="vs sm"><sup>24</sup>如今卻蒙神的恩典，因基督耶穌的救贖，就<mark>白白地稱義</mark>。<cite>羅馬書 3:24</cite></p>
+        <div class="box" style="border-color:var(--red);border-width:2.5px"><p class="small">那位末日要藉耶穌基督審判萬民的神，已經先差祂的愛子，在十字架上為無可推諉的罪人承受了忿怒。</p></div>
+      </div>
+    </div>
+    <p class="foot">不再靠虛假的道德優越感，不再靠殘缺的律法行為；<span class="r">審判我們的主，就是為我們死的主</span>。</p>
+  </div>
+</section>
+
+<!-- 43 one sentence -->
+<section class="slide" data-title="結語：今天的一句話">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">結語</span></header>
+    <div class="stack grow ctr" style="--g:24px;padding:0 30px">
+      <p class="kick">今天的一句話</p>
+      <p class="big-q" style="font-size:36px">在不偏待人、直察人心隱祕事的終末法庭前，<br>「定罪別人的<span class="r">道德優越感</span>」和「單單聽道與教導的<span class="r">宗教特權</span>」，都不能成為我們的庇護所。</p>
+      <p class="lead" style="font-family:var(--f-serif);line-height:1.6">唯有放下論斷的審判槌，讓神豐富的恩慈領我們<span class="red">真實悔改</span>，活出<span class="red">知行合一</span>的順服生命。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 45 appendix -->
+<section class="slide" data-title="附錄：經文與文獻">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">附錄</span><span class="src">回去再讀</span></header>
+    <h2 class="ttl">今天提到的經文與文獻</h2>
+    <div class="g3 grow" style="align-items:start">
+      <div class="box"><h3>羅馬書</h3><ul class="dot small"><li>1:16–17、1:18–32</li><li><b>2:1–16</b></li><li>2:26–29</li><li>3:9–20、3:21–28</li><li>8:1–27</li><li>11:17–24</li><li>14:1–13、14:22</li></ul></div>
+      <div class="box"><h3>其他經文</h3><ul class="dot small"><li>出埃及記 34:6</li><li>申命記 10:17</li><li>歷代志下 19:7</li><li>詩篇 62:12、箴言 24:12</li><li>耶利米書 31:33、以西結書 36:24–28</li><li>林前 5–6 章、林後 5:10</li><li>加拉太書 2:15、雅各書 1:22、4:11–12</li><li>撒母耳記下 12:1–15、馬太福音 7:1–5</li></ul></div>
+      <div class="box"><h3>提到的學者與文獻</h3><ul class="dot small"><li>《所羅門智訓》11–16 章（次經，作背景用）</li><li>海斯、賴特、鄧恩、穆爾、施賴納</li><li>史托爾斯、朗尼克（假想辯論體）</li><li>克蘭菲爾德、巴克萊、伯德、馬特拉、賽弗里德、斯托得、克魯斯</li><li>麥克奈特，《倒著讀羅馬書》</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- 47 names -->
+<section class="slide" data-title="附錄：人名對照">
+  <div class="page">
+    <header class="rh"><span>羅馬書 2:1–16</span><span class="sec">附錄</span><span class="src">人名中英對照</span></header>
+    <h2 class="ttl">今天提到的人名<small>依出現的先後；右邊是第一次出現的頁碼</small></h2>
+    <div class="g3 grow" style="align-items:start;gap:16px">
+      <div class="box" style="padding:12px 18px"><ul class="nmlist"><li><b>海斯</b><span class="en">Richard B. Hays</span><i>P.7</i></li><li><b>賴特</b><span class="en">N. T. Wright</span><i>P.7</i></li><li><b>非比</b><span class="en">Phoebe</span><i>P.4</i></li><li><b>布爾特曼</b><span class="en">Rudolf Bultmann</span><i>P.11</i></li><li><b>凱瑟曼</b><span class="en">Ernst Käsemann</span><i>P.11</i></li><li><b>史托爾斯</b><span class="en">Stanley Stowers</span><i>P.11</i></li><li><b>朗尼克</b><span class="en">Richard Longenecker</span><i>P.11</i></li><li><b>賽弗里德</b><span class="en">Mark Seifrid</span><i>P.14</i></li></ul></div>
+      <div class="box" style="padding:12px 18px"><ul class="nmlist"><li><b>斯托得</b><span class="en">John Stott</span><i>P.15</i></li><li><b>耶利米亞</b><span class="en">Joachim Jeremias</span><i>P.22</i></li><li><b>鄧恩</b><span class="en">James D. G. Dunn</span><i>P.26</i></li><li><b>穆爾</b><span class="en">Douglas J. Moo</span><i>P.26</i></li><li><b>施賴納</b><span class="en">Thomas R. Schreiner</span><i>P.26</i></li><li><b>馬特拉</b><span class="en">Frank J. Matera</span><i>P.26</i></li><li><b>伯德</b><span class="en">Michael F. Bird</span><i>P.32</i></li></ul></div>
+      <div class="box" style="padding:12px 18px"><ul class="nmlist"><li><b>巴克萊</b><span class="en">John M. G. Barclay</span><i>P.32</i></li><li><b>克魯斯</b><span class="en">Colin G. Kruse</span><i>P.32</i></li><li><b>克蘭菲爾德</b><span class="en">C. E. B. Cranfield</span><i>P.41</i></li><li><b>蒂爾曼</b><span class="en">Frank Thielman</span><i>P.41</i></li><li><b>麥克奈特</b><span class="en">Scot McKnight</span><i>P.47</i></li><li><b>加爾文</b><span class="en">John Calvin</span><i>P.48</i></li><li><b>阿民念</b><span class="en">Jacobus Arminius</span><i>P.48</i></li></ul></div>
+    </div>
+  </div>
+</section>
+
+</div>
+</main>
+
+<nav class="bar" aria-label="簡報導覽">
+  <div class="prog"><span id="progFill"></span></div>
+  <button class="nb" id="prevBtn" aria-label="上一頁"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M11 2 L4 8 L11 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <span class="count"><b id="curN">1</b> / <span id="totN">48</span></span>
+  <button class="nb" id="nextBtn" aria-label="下一頁"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M5 2 L12 8 L5 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <span class="bt" id="barTitle"></span>
+  <button class="nb" id="notesBtn" aria-pressed="false" hidden>講者備註 <kbd>N</kbd></button>
+  <button class="nb" id="pvBtn" aria-pressed="false" hidden>講者視窗 <kbd>P</kbd></button>
+  <button class="nb" id="fsBtn">全螢幕 <kbd>F</kbd></button>
+  <a class="nb" id="helpLink" hidden href="https://hungshinlee.github.io/segullah/sunday-school/slides-guide.html" target="_blank" rel="noopener" title="投影片使用說明（另開分頁）">說明</a>
+</nav>
+<div class="notes-panel" id="notesPanel" hidden></div>
+
+<script>
+(function(){
+  /* ---------- deck ---------- */
+  var $=function(id){return document.getElementById(id);};
+  var deck=$('deck'), slides=[].slice.call(deck.querySelectorAll('.slide')), N=slides.length;
+  var mq=window.matchMedia('(max-width: 760px), (orientation: portrait) and (max-width: 1100px)');
+  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var cur=0, S=1;
+  slides.forEach(function(s,k){s.setAttribute('aria-label','第 '+(k+1)+' 頁：'+(s.dataset.title||''));var p=document.createElement('span');p.className='pg';p.setAttribute('aria-hidden','true');p.textContent='P.'+String(k+1).padStart(2,'0');s.appendChild(p);});
+  $('totN').textContent=N;
+
+  function fit(){
+    if(mq.matches){S=1;deck.style.removeProperty('--s');return;}
+    var r=deck.getBoundingClientRect();
+    S=Math.max(.1,Math.min(r.width/1280,r.height/720));
+    deck.style.setProperty('--s',S.toFixed(4));
+  }
+  function render(){
+    var stack=mq.matches;
+    slides.forEach(function(s,k){
+      s.classList.toggle('on',k===cur);s.classList.toggle('before',k<cur);s.classList.toggle('after',k>cur);
+      var hide=!stack&&k!==cur;s.inert=hide;
+      if(hide)s.setAttribute('aria-hidden','true');else s.removeAttribute('aria-hidden');
+    });
+    $('curN').textContent=cur+1;
+    $('barTitle').textContent=(slides[cur].dataset.title||'')+(slides[cur].dataset.skip?'　· 時間不夠可略過':'');
+    $('progFill').style.width=((cur+1)/N*100)+'%';
+    $('prevBtn').disabled=cur===0;$('nextBtn').disabled=cur===N-1;
+    var nt=slides[cur].querySelector('.notes');
+    $('notesPanel').innerHTML='<b>P.'+(cur+1)+'　'+(slides[cur].dataset.title||'')+'</b>'+(nt?nt.innerHTML:'');
+  }
+  function go(n){
+    cur=Math.max(0,Math.min(N-1,n));render();
+    try{history.replaceState(null,'','#p'+(cur+1));}catch(e){}
+  }
+  function jump(n){
+    if(mq.matches){slides[n].scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});}else go(n);
+  }
+  function toggleNotes(){var p=$('notesPanel');p.hidden=!p.hidden;$('notesBtn').setAttribute('aria-pressed',String(!p.hidden));}
+  function toggleFs(){
+    try{
+      if(document.fullscreenElement){var x=document.exitFullscreen();if(x&&x.catch)x.catch(function(){});}
+      else if(document.documentElement.requestFullscreen){var y=document.documentElement.requestFullscreen();if(y&&y.catch)y.catch(function(){});}
+    }catch(e){}
+  }
+  if(!document.fullscreenEnabled)$('fsBtn').hidden=true;
+
+  $('prevBtn').addEventListener('click',function(){go(cur-1);});
+  $('nextBtn').addEventListener('click',function(){go(cur+1);});
+  $('notesBtn').addEventListener('click',toggleNotes);
+  $('fsBtn').addEventListener('click',toggleFs);
+  document.querySelectorAll('[data-go]').forEach(function(b){b.addEventListener('click',function(){jump(+b.dataset.go-1);});});
+
+  document.addEventListener('keydown',function(e){
+    if(mq.matches||e.altKey||e.ctrlKey||e.metaKey)return;
+    var t=e.target;
+    if(t&&t.closest&&t.closest('input,textarea,select,[contenteditable="true"]'))return;
+    var onBtn=t&&t.closest&&t.closest('button');
+    switch(e.key){
+      case 'ArrowRight':case 'PageDown':go(cur+1);e.preventDefault();break;
+      case 'ArrowLeft':case 'PageUp':go(cur-1);e.preventDefault();break;
+      case ' ':if(onBtn)return;go(e.shiftKey?cur-1:cur+1);e.preventDefault();break;
+      case 'Home':go(0);e.preventDefault();break;
+      case 'End':go(N-1);e.preventDefault();break;
+      case 'f':case 'F':toggleFs();break;
+    }
+  });
+  var tx=null,ty=null;
+  deck.addEventListener('touchstart',function(e){if(mq.matches)return;var t=e.touches[0];tx=t.clientX;ty=t.clientY;},{passive:true});
+  deck.addEventListener('touchend',function(e){
+    if(mq.matches||tx===null)return;var t=e.changedTouches[0],dx=t.clientX-tx,dy=t.clientY-ty;tx=null;
+    if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.3)go(cur+(dx<0?1:-1));
+  },{passive:true});
+  window.addEventListener('resize',fit);
+  var onMode=function(){fit();render();};
+  if(mq.addEventListener)mq.addEventListener('change',onMode);else if(mq.addListener)mq.addListener(onMode);
+
+  /* ---------- reveal：逐條點開（通用：.rvbox 裡的 .rv；.rv-next 下一個、.rv-all 全部打開／收起） ---------- */
+  document.querySelectorAll('.rvbox').forEach(function(box){
+    var items=[].slice.call(box.querySelectorAll('.rv')), nx=box.querySelector('.rv-next'), all=box.querySelector('.rv-all');
+    var lab=nx?nx.textContent:'';
+    function show(it,on){it.classList.toggle('shown',on);it.setAttribute('aria-expanded',String(on));}
+    function left(){return items.filter(function(i){return !i.classList.contains('shown');});}
+    function upd(){var l=left().length;if(nx)nx.textContent=l?lab:'都打開了';if(all)all.textContent=l?'全部打開':'全部收起';}
+    items.forEach(function(it){
+      it.setAttribute('role','button');it.tabIndex=0;show(it,false);
+      it.addEventListener('click',function(){show(it,!it.classList.contains('shown'));upd();});
+      it.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();it.click();}});
+    });
+    if(nx)nx.addEventListener('click',function(){var l=left();if(l.length)show(l[0],true);upd();});
+    if(all)all.addEventListener('click',function(){var open=left().length>0;items.forEach(function(i){show(i,open);});upd();});
+    upd();
+  });
+
+  /* ---------- timer：討論站倒數（通用：.timer[data-min]；.tm-go 開始／暫停、.tm-reset 重來、[data-add] 加減分鐘） ---------- */
+  document.querySelectorAll('.timer').forEach(function(t){
+    var orig=(+t.dataset.min||10)*60, base=orig, rest=base, iv=0, last=0, d=t.querySelector('.tm-d'), goB=t.querySelector('.tm-go'), shown='';
+    function fmt(s){s=Math.max(0,Math.ceil(s));return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');}
+    function show(){
+      var txt=fmt(rest);if(txt!==shown){d.textContent=txt;shown=txt;}
+      var lab=iv?'暫停':(rest>0&&rest<base?'繼續':'開始');if(goB.textContent!==lab)goB.textContent=lab;
+      t.classList.toggle('done',rest<=0);t.classList.toggle('low',rest>0&&rest<=60);
+    }
+    function stop(){if(iv){clearInterval(iv);iv=0;}}
+    function tick(){var n=Date.now();rest-=(n-last)/1000;last=n;if(rest<=0){rest=0;stop();}show();}
+    goB.addEventListener('click',function(){if(iv){tick();stop();}else{if(rest<=0)rest=base;last=Date.now();iv=setInterval(tick,250);}show();});
+    t.querySelector('.tm-reset').addEventListener('click',function(){stop();base=orig;rest=base;show();});
+    t.querySelectorAll('[data-add]').forEach(function(b){b.addEventListener('click',function(){
+      if(iv)tick();
+      var add=(+b.dataset.add)*60;rest=Math.max(0,rest+add);
+      if(add>0&&rest>base)base=rest;
+      show();
+    });});
+    show();
+  });
+
+  /* ---------- checklist：點一下打勾（通用：.chk） ---------- */
+  document.querySelectorAll('.chk').forEach(function(c){c.addEventListener('click',function(){c.setAttribute('aria-pressed',String(c.getAttribute('aria-pressed')!=='true'));});});
+
+  /* ---------- presenter window ---------- */
+  /* 講者視窗（2026-10-25 加）：按 P 或導覽列的「講者視窗」，另開一個視窗放在筆電螢幕上（投影機設成延伸桌面）。
+     視窗裡有：投影中的這一頁（可以直接點按鈕、在格子裡打字，會傳到投影畫面）、下一頁預覽、講者備註、計時。
+     在任一個視窗翻頁，另一個會跟著翻。計時在第一次翻頁時自動開始。
+     這一段從 2026-10-18 主日學那一課的 deck.html 原樣複製，只改了 TALK_MIN。 */
+  var TALK_MIN=60; /* 聚會長度（分鐘）：剩 5 分鐘時計時變黃，超過變紅 */
+  var pv=null, pvCurDoc=null, pvNxDoc=null, pvShown=-1, pvMO=null, pvDue=0, pvIv=0;
+  var pvAcc=0, pvFrom=0, pvIdle=true, pvFs=20;
+  try{var pvFs0=+localStorage.getItem('deck-presenter-fs');if(pvFs0>=14&&pvFs0<=34)pvFs=pvFs0;}catch(e){}
+  var PV_CSS=[
+    '*,*::before,*::after{box-sizing:border-box}',
+    'html,body{height:100%;margin:0}',
+    'body{background:#17171F;color:#FFFDF6;font:16px/1.5 "PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;overflow:hidden;-webkit-font-smoothing:antialiased}',
+    '[hidden]{display:none!important}',
+    'button{font:inherit;font-size:14px;font-weight:700;color:#FFFDF6;background:transparent;border:2px solid rgba(255,253,246,.35);height:34px;min-width:38px;padding:0 12px;cursor:pointer;flex:none}',
+    'button:hover:not(:disabled){border-color:#FFE047;color:#FFE047}',
+    'button:disabled{opacity:.3;cursor:default}',
+    'button:focus-visible{outline:3px solid #FFE047;outline-offset:2px}',
+    '#pvRoot{height:100%;display:flex;flex-direction:column}',
+    '.top{flex:none;display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:2px solid rgba(255,253,246,.14);white-space:nowrap;min-width:0}',
+    '.pno{flex:none;font-size:22px;font-weight:900;font-variant-numeric:tabular-nums;min-width:4.4em;text-align:center}',
+    '.pno b{color:#FFE047}',
+    '.ttl{font-weight:700;font-size:17px;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:0 1 auto;padding-left:4px}',
+    '.skip{flex:none;background:#E5383B;color:#fff;font-weight:900;font-size:13px;padding:1px 8px;letter-spacing:.06em}',
+    '.sp{flex:1 1 0;min-width:8px}',
+    '.tm{flex:none;font:700 26px/1 ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums}',
+    '.tm.warn{color:#FFE047}.tm.over{color:#FF6B6E}',
+    '.tmax{flex:none;color:rgba(255,253,246,.6);font-size:14px}',
+    '.clock{flex:none;color:rgba(255,253,246,.7);font-variant-numeric:tabular-nums;padding-left:12px;border-left:1px solid rgba(255,253,246,.25)}',
+    '.grid{flex:1;min-height:0;display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:16px;padding:12px 16px 16px}',
+    '.col{display:flex;flex-direction:column;gap:8px;min-height:0;min-width:0}',
+    '.lab{flex:none;display:flex;align-items:center;gap:8px;min-height:28px;font-size:13px;font-weight:700;letter-spacing:.06em;color:rgba(255,253,246,.65);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}',
+    '.lab button{height:28px;font-size:13px;padding:0 8px}',
+    '.box{position:relative;overflow:hidden;min-height:0}',
+    '.box iframe{position:absolute;left:0;top:0;width:1280px;height:720px;border:0;transform-origin:0 0;background:#FFFDF6}',
+    '.cur{flex:1}',
+    '.nxrow{flex:none;display:flex;gap:14px;align-items:stretch;margin-top:6px}',
+    '.nx{flex:none;width:48%;aspect-ratio:16/9;cursor:pointer;opacity:.9}',
+    '.nx:hover{opacity:1}',
+    '.nx iframe{pointer-events:none}',
+    '.end{position:absolute;inset:0;display:grid;place-items:center;border:2px dashed rgba(255,253,246,.3);background:#17171F;color:rgba(255,253,246,.6);font-weight:700}',
+    '.nxinfo{flex:1;min-width:0;display:flex;flex-direction:column;gap:6px}',
+    '.nxt{font-weight:700;font-size:16px;line-height:1.45;color:rgba(255,253,246,.9)}',
+    '.navbig{margin-top:auto;display:flex;gap:10px}',
+    '.navbig button{flex:1;height:48px;font-size:16px}',
+    '.pvn{flex:1;min-height:0;overflow:auto;background:#FFFDF6;color:#17171F;padding:14px 18px;line-height:1.75;border-left:6px solid #FFE047}',
+    '.pvn .skip{display:inline-block;margin-right:8px;font-size:.7em;vertical-align:.12em}',
+    '.pvn .none{color:#555463}',
+    '.pvn p{margin:0}.pvn p+p{margin-top:.5em}',
+    '.pvn .ntm{font-weight:700;color:#555463}',
+    '.pvn .ntl{padding-left:1.2em}',
+    '.pvn .ntp{color:#555463;font-size:.92em}',
+    '.nk{display:inline-block;margin-right:8px;padding:0 6px;border:2px solid #17171F;font-size:.7em;font-weight:900;line-height:1.5;letter-spacing:.06em;vertical-align:.14em;white-space:nowrap;color:#17171F}',
+    '.nk-say{background:#D3E9FF}.nk-ask{background:#FFDCD8}.nk-stop{background:#FFE047}.nk-go,.nk-fin{background:#D8F0E3}.nk-prep{background:#ECEBF0}.nk-warn{background:#E5383B;color:#fff}',
+    '@media (max-width:900px){.grid{display:flex;flex-direction:column}.grid>.col:first-child{flex:none}.cur{flex:none;height:34vh}.grid>.col:last-child{flex:1}.nx{display:none}.tmax,.clock{display:none}}'
+  ].join('\n');
+  function pvHTML(){
+    var t=document.title.replace(/[<>&]/g,'');
+    return '<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><title>講者視窗｜'+t+'</title><style>'+PV_CSS+'</style></head><body><div id="pvRoot">'+
+      '<header class="top">'+
+        '<span class="pno"><b id="pvN">1</b> / '+N+'</span>'+
+        '<span class="ttl" id="pvTitle"></span><span class="skip" id="pvSkip" hidden>時間不夠可略過</span>'+
+        '<span class="sp"></span>'+
+        '<span class="tm" id="pvTime">00:00</span><span class="tmax">/ '+TALK_MIN+':00</span>'+
+        '<button id="pvPause">開始</button><button id="pvReset">歸零</button>'+
+        '<span class="clock" id="pvClock"></span>'+
+      '</header>'+
+      '<main class="grid">'+
+        '<section class="col"><div class="lab">投影中 · 這一頁的按鈕可以直接點，格子可以直接打字</div>'+
+          '<div class="box cur"><iframe id="pvCur" title="投影中的這一頁"></iframe></div>'+
+          '<div class="nxrow">'+
+            '<div class="box nx" id="pvNxBox" title="點一下翻到下一頁"><iframe id="pvNx" title="下一頁預覽" tabindex="-1"></iframe><div class="end" id="pvEnd" hidden>已經是最後一頁</div></div>'+
+            '<div class="nxinfo"><div class="lab">下一頁</div><div class="nxt" id="pvNxLab"></div>'+
+              '<div class="navbig"><button id="pvPrev">◀ 上一頁</button><button id="pvNext">下一頁 ▶</button></div></div>'+
+          '</div></section>'+
+        '<section class="col">'+
+          '<div class="lab">講者備註<span class="sp"></span><button id="pvSm" aria-label="備註字縮小">A−</button><button id="pvLg" aria-label="備註字放大">A＋</button></div>'+
+          '<div class="pvn" id="pvNotes"></div></section>'+
+      '</main></div></body></html>';
+  }
+  function pvAlive(){try{return !!(pv&&!pv.closed&&pv.document.getElementById('pvRoot'));}catch(e){return false;}}
+  function pvFrame(ifr){
+    var d=ifr.contentDocument, h='', defs=document.querySelector('svg.defs');
+    document.querySelectorAll('head style, head link[rel="stylesheet"]').forEach(function(n){h+=n.outerHTML;});
+    h+='<style>html,body{background:transparent!important}.deck{position:fixed;inset:0;--s:1}.slide{transition:none!important;box-shadow:none!important}</style>';
+    d.open();d.write('<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">'+h+'</head><body>'+(defs?defs.outerHTML:'')+'<div class="deck"></div></body></html>');d.close();
+    return d;
+  }
+  function pvFix(c,live){c.classList.add('on');c.classList.remove('before','after');c.removeAttribute('aria-hidden');if(live)c.removeAttribute('inert');else c.setAttribute('inert','');}
+  function pvVals(a,b){
+    var x=a.querySelectorAll('input,textarea,select'), y=b.querySelectorAll('input,textarea,select');
+    for(var i=0;i<x.length&&i<y.length;i++){y[i].value=x[i].value;if(x[i].type==='checkbox'||x[i].type==='radio')y[i].checked=x[i].checked;}
+  }
+  function pvPut(d,k,live){
+    var host=d.querySelector('.deck');if(!host)return;
+    host.textContent='';
+    if(k<0||k>=N)return;
+    var c=d.importNode(slides[k],true);pvVals(slides[k],c);pvFix(c,live);host.appendChild(c);
+  }
+  /* 把投影畫面上這一頁的變化（點了選項、蓋章、打字）同步到講者視窗，只改有變的地方，正在打字的格子不動 */
+  function pvPatch(a,b,d){
+    if(a.nodeType!==1){if(b.nodeValue!==a.nodeValue)b.nodeValue=a.nodeValue;return;}
+    var i,n,at=b.attributes;
+    for(i=at.length-1;i>=0;i--){n=at[i].name;if(!a.hasAttribute(n))b.removeAttribute(n);}
+    at=a.attributes;
+    for(i=0;i<at.length;i++){if(b.getAttribute(at[i].name)!==at[i].value)b.setAttribute(at[i].name,at[i].value);}
+    if(/^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)){if(d.activeElement!==b&&b.value!==a.value)b.value=a.value;if(b.checked!==a.checked)b.checked=a.checked;}
+    var x=a.childNodes, y=b.childNodes, same=x.length===y.length;
+    for(i=0;same&&i<x.length;i++)if(x[i].nodeName!==y[i].nodeName)same=false;
+    if(same){for(i=0;i<x.length;i++)pvPatch(x[i],y[i],d);return;}
+    var ae=d.activeElement;if(ae&&ae!==d.body&&b.contains(ae))return;
+    var f=d.createDocumentFragment();for(i=0;i<x.length;i++)f.appendChild(d.importNode(x[i],true));
+    b.textContent='';b.appendChild(f);pvVals(a,b);
+  }
+  function pvSync(){
+    if(!pvAlive())return;
+    var d=pv.document, k=cur;
+    if(k!==pvShown){
+      if(pvShown>=0&&pvIdle){pvIdle=false;pvFrom=Date.now();}
+      pvShown=k;
+      pvPut(pvCurDoc,k,true);pvPut(pvNxDoc,k+1,false);
+      var s=slides[k], nt=s.querySelector('.notes'), el=d.getElementById('pvNotes');
+      d.getElementById('pvN').textContent=k+1;
+      d.getElementById('pvTitle').textContent=s.dataset.title||'';
+      d.getElementById('pvSkip').hidden=!s.dataset.skip;
+      d.getElementById('pvPrev').disabled=k===0;d.getElementById('pvNext').disabled=k===N-1;
+      d.getElementById('pvNxLab').textContent=k<N-1?'P.'+(k+2)+'　'+(slides[k+1].dataset.title||''):'（已經是最後一頁）';
+      d.getElementById('pvEnd').hidden=k<N-1;
+      el.innerHTML=nt&&nt.innerHTML.trim()?nt.innerHTML:'<span class="none">這一頁沒有備註。</span>';
+      el.scrollTop=0;
+      pvTick();
+    }else{
+      var root=pvCurDoc.querySelector('.deck > .slide');
+      if(root){pvPatch(slides[k],root,pvCurDoc);pvFix(root,true);}else pvPut(pvCurDoc,k,true);
+    }
+  }
+  function pvFit(){
+    if(!pvAlive())return;
+    var d=pv.document;
+    ['pvCur','pvNx'].forEach(function(id){
+      var f=d.getElementById(id), b=f.parentNode, w=b.clientWidth, h=b.clientHeight;
+      if(!w||!h)return;
+      var k=Math.min(w/1280,h/720);
+      f.style.transform='translate('+((w-1280*k)/2).toFixed(1)+'px,'+((h-720*k)/2).toFixed(1)+'px) scale('+k.toFixed(4)+')';
+    });
+  }
+  /* 在講者視窗裡點這一頁：找到投影畫面上同一個位置的元素，替它按一下 */
+  function pvTwin(t){
+    var root=pvCurDoc&&pvCurDoc.querySelector('.deck > .slide'), p=[], m=slides[cur], i;
+    if(!root||!t)return null;
+    while(t&&t!==root){var u=t.parentElement;if(!u)return null;p.unshift([].indexOf.call(u.children,t));t=u;}
+    if(t!==root)return null;
+    for(i=0;i<p.length&&m;i++)m=m.children[p[i]];
+    return m||null;
+  }
+  function pvClick(e){
+    var t=e.target;
+    if(t&&t.closest&&t.closest('input,textarea,select,label'))return;
+    e.preventDefault();
+    var m=pvTwin(t);if(!m)return;
+    if(typeof m.click==='function')m.click();else m.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true}));
+  }
+  function pvFwd(t){
+    var m=pvTwin(t);if(!m||!('value' in m)||m.value===t.value)return;
+    m.value=t.value;m.dispatchEvent(new Event('input',{bubbles:true}));
+  }
+  function pvKey(e){
+    if(e.altKey||e.ctrlKey||e.metaKey)return;
+    var t=e.target;
+    if(t&&t.closest&&t.closest('input,textarea,select,[contenteditable="true"]'))return;
+    var onBtn=t&&t.closest&&t.closest('button');
+    switch(e.key){
+      case 'ArrowRight':case 'PageDown':go(cur+1);e.preventDefault();break;
+      case 'ArrowLeft':case 'PageUp':go(cur-1);e.preventDefault();break;
+      case ' ':if(onBtn)return;go(e.shiftKey?cur-1:cur+1);e.preventDefault();break;
+      case 'Home':go(0);e.preventDefault();break;
+      case 'End':go(N-1);e.preventDefault();break;
+      case 'f':case 'F':pvFull();break;
+    }
+  }
+  function pvFull(){
+    try{
+      var d=pv.document;
+      if(d.fullscreenElement){var x=d.exitFullscreen();if(x&&x.catch)x.catch(function(){});}
+      else if(d.documentElement.requestFullscreen){var y=d.documentElement.requestFullscreen();if(y&&y.catch)y.catch(function(){});}
+    }catch(e){}
+  }
+  function pvMs(){return pvAcc+(pvFrom?Date.now()-pvFrom:0);}
+  function pvTick(){
+    if(!pvAlive()){if(pv)pvEnd();return;}
+    var d=pv.document, s=Math.floor(pvMs()/1000), m=Math.floor(s/60), el=d.getElementById('pvTime'), c=new Date();
+    el.textContent=String(m).padStart(2,'0')+':'+String(s%60).padStart(2,'0');
+    el.className='tm'+(m>=TALK_MIN?' over':m>=TALK_MIN-5?' warn':'');
+    d.getElementById('pvClock').textContent=String(c.getHours()).padStart(2,'0')+':'+String(c.getMinutes()).padStart(2,'0');
+    d.getElementById('pvPause').textContent=pvIdle?'開始':pvFrom?'暫停':'繼續';
+  }
+  function pvToggleTime(){
+    if(pvIdle){pvIdle=false;pvFrom=Date.now();}
+    else if(pvFrom){pvAcc+=Date.now()-pvFrom;pvFrom=0;}
+    else pvFrom=Date.now();
+    pvTick();
+  }
+  function pvResetTime(){pvAcc=0;pvFrom=0;pvIdle=true;pvTick();}
+  function pvSize(dl){
+    pvFs=Math.max(14,Math.min(34,pvFs+dl));
+    try{localStorage.setItem('deck-presenter-fs',String(pvFs));}catch(e){}
+    if(pvAlive())pv.document.getElementById('pvNotes').style.fontSize=pvFs+'px';
+  }
+  function pvSay(msg){
+    var bt=$('barTitle');bt.textContent=msg;
+    setTimeout(function(){if(bt.textContent===msg)render();},6000);
+  }
+  function pvEnd(){
+    if(pvMO){pvMO.disconnect();pvMO=null;}
+    if(pvIv){clearInterval(pvIv);pvIv=0;}
+    if(pvDue){clearTimeout(pvDue);pvDue=0;}
+    pv=null;pvCurDoc=pvNxDoc=null;pvShown=-1;
+    $('pvBtn').setAttribute('aria-pressed','false');
+  }
+  function pvBuild(w){
+    var d=w.document, g=function(id){return d.getElementById(id);};
+    d.open();d.write(pvHTML());d.close();
+    pv=w;pvShown=-1;
+    pvCurDoc=pvFrame(g('pvCur'));pvNxDoc=pvFrame(g('pvNx'));
+    g('pvPrev').addEventListener('click',function(){go(cur-1);});
+    g('pvNext').addEventListener('click',function(){go(cur+1);});
+    g('pvNxBox').addEventListener('click',function(){go(cur+1);});
+    g('pvPause').addEventListener('click',pvToggleTime);
+    g('pvReset').addEventListener('click',pvResetTime);
+    g('pvSm').addEventListener('click',function(){pvSize(-2);});
+    g('pvLg').addEventListener('click',function(){pvSize(2);});
+    d.addEventListener('keydown',pvKey);
+    pvCurDoc.addEventListener('keydown',pvKey);
+    pvCurDoc.addEventListener('click',pvClick,true);
+    pvCurDoc.addEventListener('input',function(e){if(!e.isComposing)pvFwd(e.target);});
+    pvCurDoc.addEventListener('compositionend',function(e){pvFwd(e.target);});
+    pvCurDoc.addEventListener('focusout',function(){setTimeout(pvSync,0);});
+    w.addEventListener('resize',pvFit);
+    pvSize(0);pvSync();pvFit();setTimeout(pvFit,150);
+    pvMO=new MutationObserver(function(){if(!pvDue)pvDue=setTimeout(function(){pvDue=0;pvSync();},40);});
+    pvMO.observe(deck,{subtree:true,childList:true,attributes:true,characterData:true});
+    pvIv=setInterval(pvTick,500);pvTick();
+    $('pvBtn').setAttribute('aria-pressed','true');
+    if(!$('notesPanel').hidden)toggleNotes();
+  }
+  function openPresenter(){
+    if(pvAlive()){try{pv.focus();}catch(e){}return;}
+    if(pv)pvEnd();
+    var w=null;
+    try{w=window.open('','','popup=yes,width=1200,height=760');}catch(e){}
+    if(!w){pvSay('講者視窗被瀏覽器擋住了：請允許這個網頁開彈出式視窗，再按一次 P');return;}
+    try{pvBuild(w);try{w.focus();}catch(e){}}
+    catch(e){try{w.close();}catch(x){}pvEnd();pvSay('這個瀏覽器開不了講者視窗，請改用 Chrome');}
+  }
+  $('pvBtn').addEventListener('click',openPresenter);
+  window.addEventListener('pagehide',function(){try{if(pv&&!pv.closed)pv.close();}catch(e){}});
+  /* ---------- end presenter window ---------- */
+
+  /* ---------- boot ---------- */
+  function fromHash(){var m=(location.hash||'').match(/^#p(\d+)$/);return m?Math.min(N,Math.max(1,+m[1]))-1:0;}
+  function start(d){
+    fit();
+    var n=(d&&typeof d.i==='number')?d.i:fromHash();
+    cur=Math.max(0,Math.min(N-1,n));render();
+    if(mq.matches&&cur>0)slides[cur].scrollIntoView({block:'start'});
+  }
+  try{if(window.claude&&window.claude.hot&&window.claude.hot.snapshot)window.claude.hot.snapshot(function(){return {i:cur};});}catch(e){}
+  var hot=window.claude&&window.claude.hot;
+  if(hot&&hot.ready)hot.ready(start);else start(hot&&hot.data?hot.data:{});
+})();
+</script>
+
+</body>
+</html>
