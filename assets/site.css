@@ -210,6 +210,8 @@ footer a:hover { color: var(--lapis); }
 .lessons .links { white-space: nowrap; }
 .lessons .links a + a { margin-left: 0.75rem; }
 .lessons .empty-row td { color: var(--muted); }
+/* 資料還沒放上來（例：投影片（待放）），不是連結 */
+.lessons .pending { color: var(--muted); }
 
 /* 手機：每一課疊成一塊，不左右捲動 */
 @media (max-width: 600px) {
