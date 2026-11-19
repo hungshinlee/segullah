@@ -403,10 +403,22 @@ kbd {
 
 /* 譯文 */
 .reader h3 {
-  font-size: 1.25rem;
+  font-size: 1.375rem;
+  font-weight: 700;
   line-height: 1.5;
   color: var(--lapis);
-  margin: 2.5rem 0 1rem;
+  margin: 2.75rem 0 1rem;
+}
+/* 小標題前的金色短條，和段落文字、引文（左邊整條金線）分開 */
+.reader h3::before {
+  content: "";
+  display: inline-block;
+  width: 0.3em;
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: -0.12em;
+  background: var(--gold);
+  border-radius: 1px;
 }
 .reader .note p { margin: 0 0 0.5rem; }
 .reader .note p:last-child { margin-bottom: 0; }
