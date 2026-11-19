@@ -18,7 +18,9 @@ fellowship/youth/YYYY-MM-DD/            每一次分享一個資料夾（投影�
 enoch-fellowship/index.html             以諾團契小組問題（首頁「團契」底下；網址沿用 2026-10-19 起的，沒搬進 fellowship/）：每一次一列（日期、主題、經文、資料）
 enoch-fellowship/YYYY-MM-DD/            每一次一個資料夾（討論題頁面）
 book-club/elijah/index.html             讀書會（首頁「讀書會」底下）：《以利亞的日子》的進度表，每一次一列（日期、進度、經文、資料），依日期由早到晚排（和其他列表頁相反）
-book-club/elijah/book.pdf               全書 PDF（加密，開啟需要密碼；2026-11-12 起）。不要換成沒加密的版本
+book-club/elijah/book.pdf               全書 PDF（加密，開啟需要密碼；2026-11-12 起）。不要換成沒加密的版本。2026-11-19 起進度表頁不再連到它
+book-club/elijah/translation/           譯本（2026-11-19 起）：目錄 index.html、引言 intro.html、每章 chNN.html，全部加密，輸入密碼才看得到內容。
+                                        由 Church-Hub 的 books/make_translation_pages.py 從 book.md 產生，不要手改；明文不放進這個 repo
 book-club/elijah/YYYY-MM-DD/            每一次一個資料夾（摘要與討論題頁面）；之後讀別本書，在 book-club/ 下另開一個英文資料夾
 timothy-group/index.html                提摩太小組（首頁「其他」底下，2026-11-15 加）：每一次一列（日期、主題、經文、資料）
 timothy-group/YYYY-MM-DD/               每一次一個資料夾

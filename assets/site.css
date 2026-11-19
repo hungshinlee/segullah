@@ -365,3 +365,92 @@ kbd {
 .nk-prep { background: #ECEBF0; }
 .nk-warn { background: #E5383B; color: #FFFFFF; }
 .skip-tag { margin: 0 0.25em; background: #E5383B; color: #FFFFFF; }
+
+/* ---------- 加密頁（例：讀書會的譯本，books/make_translation_pages.py 產生） ---------- */
+
+.unlock {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 0.75rem;
+}
+.unlock label { font-weight: 700; }
+.unlock input {
+  flex: 1 1 12rem;
+  min-width: 0;
+  font: inherit;
+  color: var(--ink);
+  background: transparent;
+  padding: 0.4rem 0.75rem;
+  border: 2px solid var(--line);
+  border-radius: 6px;
+}
+.unlock input:focus { outline: none; border-color: var(--gold); }
+.unlock button {
+  font: inherit;
+  font-weight: 700;
+  color: var(--paper);
+  background: var(--lapis);
+  padding: 0.4rem 1.25rem;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.unlock button:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.unlock button:disabled { opacity: 0.6; cursor: wait; }
+.unlock-msg { min-height: 1.8em; margin: 0; color: var(--muted); }
+
+/* 譯文 */
+.reader h3 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--lapis);
+  margin: 2.5rem 0 1rem;
+}
+.reader .note p { margin: 0 0 0.5rem; }
+.reader .note p:last-child { margin-bottom: 0; }
+
+/* 上一章／目錄／下一章 */
+.pager {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: start;
+  gap: 1rem;
+  margin: 3rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--line);
+  font-size: 1rem;
+}
+.pager a { color: var(--ink); text-decoration: none; }
+.pager-dir {
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--gold);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.3em;
+}
+.pager a:hover .pager-dir { color: var(--lapis); }
+.pager .toc-link { text-align: center; }
+.pager .next { text-align: right; }
+.pager-title {
+  display: block;
+  margin-top: 0.25rem;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  color: var(--muted);
+}
+
+.lock-row { margin: 2.5rem 0 0; font-size: 0.9375rem; }
+.lock-btn {
+  font: inherit;
+  color: var(--muted);
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-underline-offset: 0.25em;
+}
+.lock-btn:hover { color: var(--lapis); }
